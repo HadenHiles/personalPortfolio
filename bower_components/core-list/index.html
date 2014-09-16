@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <script src="../platform/platform.js"></script>
+    <link rel="import" href="../core-selector/core-selector.html">
+    <link rel="import" href="../core-layout/core-layout.html">
+</head>
+<body unresolved>
+    <polymer-element name="selected-element">
+        <style>
+            .list {
+                display: block;
+                border: 1px solid #ccc;
+                border-bottom: none;
+                background: #666;
+                color: white;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .list > * {
+                height: 40px;
+                line-height: 40px;
+                padding: 0 20px;
+                border-bottom: 1px solid #ccc;
+            }
+
+            .list > *.core-selected {
+                background: #333;
+            }
+
+            div {
+                height: 40px;
+            }
+
+            div.core-selected:after {
+                content: "\2713";
+                padding-left: 10px;
+            }
+        </style>
+        <core-layout>
+        <div style="width: 100%;">
+        <core-selector class="list" selected="0">
+
+                <div core-flex>element 1</div>
+                <div core-flex>element 2</div>
+                <div core-flex>element 3</div>
+
+        </core-selector>
+        </div>
+        </core-layout>
+        <script>
+            Polymer('selected-element');
+        </script>
+    </polymer-element>
+    <selected-element>
+
+    </selected-element>
+</body>
+</html>
