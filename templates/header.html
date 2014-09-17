@@ -1,6 +1,15 @@
 <!--Create a polymer element for the header of the website-->
 <polymer-element name="header-template">
     <template>
+        <!--Include bootstrap stylesheets-->
+        <link rel="stylesheet" href="../bootstrap-3.2.0-dist/css/bootstrap.min.css" />
+
+        <!--Include bootstrap javascript files-->
+        <script src="../bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+
+        <!--Include external javascript files-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
         <div class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -10,7 +19,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="/images/logo/stamp-created-dark.png" /></a>
+                    <a class="navbar-brand" href="#"><img src="../images/logo/stamp-created-dark.png" class="img-responsive" /></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -24,7 +33,4 @@
             </div>
         </div>
     </template>
-    <script>
-        Polymer('header-template');
-    </script>
 </polymer-element>
