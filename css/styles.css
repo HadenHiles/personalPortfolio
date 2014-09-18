@@ -8,16 +8,21 @@ body{
 
 /* HEADER STYLES START */
 header{
+    position: absolute;
     height: 900px;
+    width: 100%;
+    top: 0;
     background: url('../images/backgrounds/header-bg.jpg') no-repeat top center;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -ms-background-size: cover;
 }
+.large_logo{
+    max-height: 120px;
+}
 .small_logo{
-    max-height: 150%;
-    margin-top: -12px;
+    max-height: 70px;
     display: none;
 }
 /* HEADER STYLES START */
