@@ -2,3 +2,13 @@
 /*
     MEDIA QUERY STYLESHEET
 */
+
+/* SMALL SCREEN SIZES */
+@media (max-width: 768px){
+    .large_logo{
+        display: none;
+    }
+    .small_logo{
+        display: block;
+    }
+}

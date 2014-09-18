@@ -1,5 +1,8 @@
 <!--Include external stylesheets-->
 <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/styles.css" />
+<link rel="stylesheet" href="/css/bootstrap-overrides.css" />
+<link rel="stylesheet" href="/css/media-queries.css" />
 
 <!--Meta tags to be rendered-->
 <meta charset="utf-8" />

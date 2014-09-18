@@ -2,3 +2,22 @@
 /*
     MAIN STYLES STYLESHEET
 */
+body{
+    background-color: #000;
+}
+
+/* HEADER STYLES START */
+header{
+    height: 900px;
+    background: url('../images/backgrounds/header-bg.jpg') no-repeat top center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+}
+.small_logo{
+    max-height: 150%;
+    margin-top: -12px;
+    display: none;
+}
+/* HEADER STYLES START */
