@@ -23,19 +23,29 @@
         </div>
     </div>
 <div class="bio">
-    <div class="bio-image">
-        <img src="../images/haden.jpg" class="img-responsive" />
-        <img src="../images/haden.jpg" class="img-responsive" />
-        <img src="../images/haden.jpg" class="img-responsive" />
-        <img src="../images/haden.jpg" class="img-responsive" />
-        <img src="../images/haden.jpg" class="img-responsive" />
+    <div class="bio-image-hover">
+        <div class="bio-image">
+            <img src="../images/me/haden.jpg" class="img-responsive" />
+            <img src="../images/me/crazy-me-small.jpg" class="img-responsive" />
+            <img src="../images/me/golf.jpg" class="img-responsive" />
+            <img src="../images/me/k+h-family-day.jpg" class="img-responsive" />
+            <img src="../images/me/me+bro.jpg" class="img-responsive" />
+            <img src="../images/me/coldwater2.jpg" class="img-responsive" />
+            <img src="../images/me/haden-guitar2.jpg" class="img-responsive" />
+            <img src="../images/me/terriers-150x150.jpg" class="img-responsive" />
+        </div>
     </div>
     <p>Hi! My name is Haden Hiles and you don't know me yet...</p>
     <p>But that can change starting with this website!</p>
 </div>
 <script>
     $('.bio-image').cycle({
-        fx:    'scrolldown',
-        speed:  2000
+        fx:    'fade',
+        speed:  50,
+        timeout: 200
+     });
+     $('.bio-image').cycle('pause');
+     $('.bio-image-hover').hover(function() {
+         $('.bio-image').cycle('resume', true);
      });
 </script>
