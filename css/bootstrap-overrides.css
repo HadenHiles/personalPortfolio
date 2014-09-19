@@ -60,4 +60,14 @@
         -ms-transform:scale(1.1);
     }
 }
+
+/* Screen sizes below 768px */
+@media (max-width: 768px){
+    .navbar-nav.navbar-right{
+        background: rgba(255, 255, 255, 0.3) !important;
+    }
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+        border: none;
+    }
+}
 /* NAVBAR STYLES END */

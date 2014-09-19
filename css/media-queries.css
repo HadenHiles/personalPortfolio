@@ -3,6 +3,13 @@
     MEDIA QUERY STYLESHEET
 */
 
+/* MOBILE SCREENS ONLY */
+@media (max-width: 450px){
+    .bio .bio-image{
+        width: 70% !important;
+    }
+}
+
 /* SMALL SCREEN SIZES */
 @media (max-width: 768px){
     .large_logo{
@@ -11,14 +18,14 @@
     .small_logo{
         display: block;
     }
-    .bio .bio-image img{
-        max-width: 50% !important;
+    .bio .bio-image{
+        width: 50%;
     }
 }
 
 /* MEDIUM SCREEN SIZED */
 @media (max-width: 992px){
-    .bio .bio-image img{
-        max-width: 35%;
+    .bio .bio-image{
+        width: 35%;
     }
 }
