@@ -7,8 +7,11 @@
 .navbar{
     border: none;
     border-radius: 0;
-    background: rgba(255, 255, 255, .3);
+    background: rgba(255, 255, 255, .0);
     font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: 9999;
 }
 .navbar ul li a{
     color: #fff !important;
@@ -38,7 +41,7 @@
 /* Only change styles for viewports larger than 768px */
 @media (min-width: 768px){
     .navbar{
-        margin-top: 70px;
+        margin-top: 3%;
     }
     .navbar-nav.navbar-right {
         margin-right: -15px;

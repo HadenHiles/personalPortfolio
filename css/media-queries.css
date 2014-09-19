@@ -11,4 +11,14 @@
     .small_logo{
         display: block;
     }
+    .bio .bio-image img{
+        max-width: 50% !important;
+    }
+}
+
+/* MEDIUM SCREEN SIZED */
+@media (max-width: 992px){
+    .bio .bio-image img{
+        max-width: 35%;
+    }
 }

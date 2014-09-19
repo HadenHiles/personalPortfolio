@@ -1,5 +1,6 @@
 <header>
-    <div class="navbar navbar-inverse" role="navigation">
+</header>
+<div class="navbar navbar-inverse" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -21,4 +22,20 @@
             </div>
         </div>
     </div>
-</header>
+<div class="bio">
+    <div class="bio-image">
+        <img src="../images/haden.jpg" class="img-responsive" />
+        <img src="../images/haden.jpg" class="img-responsive" />
+        <img src="../images/haden.jpg" class="img-responsive" />
+        <img src="../images/haden.jpg" class="img-responsive" />
+        <img src="../images/haden.jpg" class="img-responsive" />
+    </div>
+    <p>Hi! My name is Haden Hiles and you don't know me yet...</p>
+    <p>But that can change starting with this website!</p>
+</div>
+<script>
+    $('.bio-image').cycle({
+        fx:    'scrolldown',
+        speed:  2000
+     });
+</script>
