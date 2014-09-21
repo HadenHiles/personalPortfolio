@@ -1,0 +1,24 @@
+/* CSS */
+.hsContainer {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 1.0);
+}
+.hsContent {
+    max-width: 850px;
+    margin: 0 auto;
+    vertical-align: middle;
+    color: #ebebeb;
+    padding: 0 8%;
+    text-align: center;
+}
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+/* Slide 1 */
+#slide-1 .bcg {background: rgba(0, 0, 0, 1.0);}

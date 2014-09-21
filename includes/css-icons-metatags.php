@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="/css/styles.css" />
 <link rel="stylesheet" href="/css/media-queries.css" />
 <link rel="stylesheet" href="/css/bootstrap-overrides.css" />
+<link rel="stylesheet" href="/css/skrollr.css" />
 
 <!--Meta tags to be rendered-->
 <meta charset="utf-8" />

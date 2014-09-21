@@ -20,4 +20,16 @@ $(document).ready(function(){
             $(this).cycle('pause');
         });
 
+    /* PARALAX SCROLLING */
+    ( function( $ ) {
+        // Initialize Skrollr
+        var s = skrollr.init({
+            render: function(data) {
+                //Debugging - Log the current scroll position.
+                console.log(data.curTop);
+
+                //Show elements
+            }
+        });
+    } )( jQuery );
 });
