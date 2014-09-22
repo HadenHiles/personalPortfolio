@@ -12,6 +12,13 @@
     padding: 0 8%;
     text-align: center;
 }
+.hsContent h2{
+    font-family: 'FlyboyBBRegular', 'Montserrat', Arial, sans-serif;
+    font-size: 50px;
+}
+.hsContent img{
+    padding: 1%;
+}
 .bcg {
     background-position: center center;
     background-repeat: no-repeat;
@@ -20,5 +27,5 @@
     height: 100%;
     width: 100%;
 }
-/* Slide 1 */
-#slide-1 .bcg {background: rgba(0, 0, 0, 1.0);}
+/* Slide 1 (about) */
+#slide-1 .bcg {}

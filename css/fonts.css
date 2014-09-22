@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FlyboyBBRegular';
+    src: url('/fonts/flyboybb.eot');
+    src: url('/fonts/flyboybb.eot') format('embedded-opentype'),
+    url('/fonts/flyboybb.woff2') format('woff2'),
+    url('/fonts/flyboybb.woff') format('woff'),
+    url('/fonts/flyboybb.ttf') format('truetype'),
+    url('/fonts/flyboybb.svg#FlyboyBBRegularRegular') format('svg');
+}
