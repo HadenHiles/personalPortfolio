@@ -18,14 +18,41 @@
     .small_logo{
         display: block;
     }
+    .bio{
+
+    }
+    .bio p{
+        max-width: 70% !important;
+        margin: 0 auto;
+    }
     .bio .bio-image{
         width: 50%;
+    }
+    .bio.new-margin{
+
     }
 }
 
 /* MEDIUM SCREEN SIZED */
 @media (max-width: 992px){
+    .bio p{
+        max-width: 35%;
+        margin: 0 auto;
+    }
     .bio .bio-image{
         width: 35%;
+    }
+}
+
+/* ALL SCREENS ABOVE SMALL SCREEN SIZES */
+@media (min-width: 768px){
+    .navbar.sticky-nav .large_logo{
+        display: none;
+    }
+    .navbar.sticky-nav .small_logo{
+        display: block;
+    }
+    .bio.new-margin{
+
     }
 }

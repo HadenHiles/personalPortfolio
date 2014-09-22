@@ -34,22 +34,17 @@ $(document).ready(function(){
             });
         }
     } )( jQuery );
-    $("#skrollr-body").css("height", "100%");
-    /* ANIMATIONS ACCORDING TO ELEMENT POSITION FROM TOP */
-//    if($('.about').scrollTop() < 600){
-//        (function(event){
-//
-//            // Set the effect type
-//            var effect = 'bounce';
-//
-//            // Set the options for the effect type chosen
-//            var options = { direction: 'bottom' };
-//
-//            // Set the duration
-//            var duration = 500;
-//
-//            // Execute the effect on desired element
-//            $('.hide_template').toggle(effect, options, duration);
-//        });
-//    }
+
+    /* MAKE THE NAVBAR STICK TO THE TOP OF THE SCREEN */
+
+    //set up variables to improve performance/speed
+    var $window = $(window);
+    var $stickyElement = $('#navbar');
+    var elementTop = $stickyElement.offset().top;
+
+    //when the user scrolls to the correct point add/remove appropriate classes to the sticky element
+    $window.scroll(function() {
+        $stickyElement.toggleClass('sticky-nav', $window.scrollTop() > elementTop);
+        $('.bio').toggleClass('new-margin', $window.scrollTop() > elementTop);
+    });
 });
