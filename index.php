@@ -10,8 +10,8 @@
 <body>
     <?
         include($_SERVER['DOCUMENT_ROOT'].'/templates/header.php');
+        include($_SERVER['DOCUMENT_ROOT'].'/templates/portfolio.php');
         include($_SERVER['DOCUMENT_ROOT'].'/templates/about.php');
-        include($_SERVER['DOCUMENT_ROOT'].'/templates/carousel.php');
     ?>
 </body>
 </html>

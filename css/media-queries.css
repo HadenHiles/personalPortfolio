@@ -43,6 +43,10 @@
         -webkit-transition: 1s ease-in-out;
         -ms-transition: 1s ease-in-out;
     }
+    .portfolio .carousel .carousel-inner .item img, .hsContent{
+        margin: 0 auto;
+        width: 96%;
+    }
 }
 
 /* MEDIUM SCREEN SIZED */

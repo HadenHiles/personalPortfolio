@@ -14,6 +14,18 @@ body{
     font-size: 16px;
 }
 
+/* TEXT MARKUP STYLES START */
+body h2{
+    font-family: 'FlyboyBBRegular', 'Montserrat', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+body a:hover{
+    cursor: pointer;
+    cursor: hand;
+}
+/* TEXT MARKUP STYLES END */
+
 /* HEADER STYLES START */
 header{
     width: 100%;
@@ -41,10 +53,16 @@ header{
 /* HEADER STYLES END */
 
 .bio{
-    margin: 20px 0;
     width: 100%;
     float: left;
     text-align: center;
+    position: relative;
+    padding-bottom: 5%;
+    margin-top: 20%;
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
 }
 .bio .bio-image{
     margin: 10px auto;
@@ -60,8 +78,27 @@ header{
 }
 /* HEADER STYLES END */
 
+/* TEMPLATE STYLES START */
+
 /* ABOUT STYLES START */
 .about{
     width: 100%;
+    float: left;
+    margin-top: 30px;
+    background: url('../images/backgrounds/about-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 /* ABOUT STYLES END */
+/* PORTFOLIO STYLES START */
+.portfolio{
+    text-align: center;
+    width: 100%:
+    float: left;
+}
+.portfolio .carousel .carousel-inner .item img, .hsContent{
+    margin: 0 auto;
+    width: 80%;
+}
+/* PORTFOLIO STYLES END */
+
+/* TEMPLATE STYLES END */

@@ -1,20 +1,22 @@
 /* CSS */
+.about .hsContainer{
+    background: rgba(0, 0, 0, 0.8);
+    float: left;
+}
+.portfolio .hsContainer{
+    padding: 0;
+}
 .hsContainer {
     height: 100%;
     width: 100%;
+    padding: 40px 0;
     background: rgba(0, 0, 0, 1.0);
 }
 .hsContent {
-    max-width: 850px;
     margin: 0 auto;
     vertical-align: middle;
     color: #ebebeb;
-    padding: 0 8%;
-    text-align: center;
-}
-.hsContent h2{
-    font-family: 'FlyboyBBRegular', 'Montserrat', Arial, sans-serif;
-    font-size: 50px;
+    padding: 0 1%;
 }
 .hsContent img{
     padding: 1%;
