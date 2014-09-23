@@ -7,8 +7,8 @@
         >
             <div class="hsContainer">
                 <div class="hsContent"
-                    data--0-bottom="opacity: 0"
-                    data-500-top="opacity: 1"
+                    data--200-bottom="opacity: 1"
+                    data-0-top="opacity: 0"
                     data-anchor-target="#slide-1"
                 >
                     <h2>About Me</h2>
