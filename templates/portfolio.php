@@ -6,8 +6,8 @@
             data-anchor-target="#slide-1"
         >
             <div class="hsContainer"
-                data--240-bottom="opacity: 1"
-                data-0-top="opacity: 0"
+                data--240-bottom="opacity: 0"
+                data-0-top="opacity: 1"
                 data-anchor-target="#slide-1"
             >
                 <h2>Portfolio</h2>

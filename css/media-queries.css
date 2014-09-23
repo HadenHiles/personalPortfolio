@@ -47,6 +47,9 @@
         margin: 0 auto;
         width: 96%;
     }
+    .social{
+        display: none;
+    }
 }
 
 /* MEDIUM SCREEN SIZED */

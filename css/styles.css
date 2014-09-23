@@ -92,7 +92,7 @@ header{
 /* PORTFOLIO STYLES START */
 .portfolio{
     text-align: center;
-    width: 100%:
+    width: 100%;
     float: left;
 }
 .portfolio .carousel .carousel-inner .item img, .hsContent{
@@ -102,3 +102,81 @@ header{
 /* PORTFOLIO STYLES END */
 
 /* TEMPLATE STYLES END */
+
+/* SOCIAL BAR START */
+.social {
+    position: fixed;
+    z-index: 9999;
+    top: 45%;
+    left: 0;
+    background: rgba(255, 255, 255, 1) !important;
+    border: 2px dashed #000;
+    border-left: none;
+    padding: 10px;
+}
+.social ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social li{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.social a{
+    color: #000;
+}
+.social i{
+    margin: 0 auto;
+    font-size: 40px;
+}
+/* GitHub */
+.social a:hover i.fa-github-square{
+    color: #333333;
+    transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+}
+/* linked in */
+.social a:hover i.fa-linkedin-square{
+    color: #3b5998;
+    transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+}
+/* facebook */
+.social a:hover i.fa-facebook-square{
+    color: #3b5998;
+    transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+}
+/* twitter */
+.social a:hover i.fa-twitter-square{
+    color: #00aced;
+    transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+}
+/* google plus */
+.social a:hover i.fa-google-plus-square{
+    color: #dd4b39;
+    transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+}
+/* pinterest */
+.social a:hover i.fa-pinterest-square{
+    color: #cb2027;
+    transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+}
+/* SOCIAL BAR END */

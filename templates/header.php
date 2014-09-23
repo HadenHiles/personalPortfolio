@@ -13,11 +13,11 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="">Home</a></li>
-                    <li><a onclick="$('html, body').animate({scrollTop: $('#portfolio').offset().top}, 1000);">Portfolio</a></li>
-                    <li><a onclick="$('html, body').animate({scrollTop: $('#about').offset().top}, 1000);">About</a></li>
-                    <li><a onclick="$('html, body').animate({scrollTop: $('#services').offset().top}, 1000);">Services</a></li>
-                    <li><a onclick="$('html, body').animate({scrollTop: $('#contact').offset().top}, 1000);">Contact</a></li>
+                    <li class="active"><a onclick="$('html, body').animate({scrollTop: $('body').offset().top}, 1000);">Home</a></li>
+                    <li><a onclick="$('html, body').animate({scrollTop: $('#portfolio').offset().top - 90}, 1000);">Portfolio</a></li>
+                    <li><a onclick="$('html, body').animate({scrollTop: $('#about').offset().top - 60}, 1000);">About</a></li>
+                    <li><a onclick="$('html, body').animate({scrollTop: $('#services').offset().top - 60}, 1000);">Services</a></li>
+                    <li><a onclick="$('html, body').animate({scrollTop: $('#contact').offset().top - 60}, 1000);">Contact</a></li>
                 </ul>
             </div>
         </div>
