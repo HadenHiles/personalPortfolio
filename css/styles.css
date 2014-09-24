@@ -74,7 +74,7 @@ header{
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     -ms-border-radius: 50%;
-    border: 5px solid #fff;
+    border: 5px dashed #fff;
 }
 /* HEADER STYLES END */
 
@@ -108,8 +108,8 @@ header{
     position: fixed;
     z-index: 9999;
     top: 35%;
-    left: -1.5%;
-    background: rgba(255, 255, 255, .8) !important;
+    left: -10px;
+    background: rgba(255, 255, 255, .5) !important;
     border: 2px dashed #000;
     border-left: none;
     padding: 10px;
@@ -133,6 +133,9 @@ header{
     -moz-transition: .3s ease-in-out;
     -webkit-transition: .3s ease-in-out;
     -ms-transition: .3s ease-in-out;
+}
+.social:hover a i{
+    opacity: .35;
 }
 .social ul{
     list-style: none;
@@ -158,6 +161,7 @@ header{
     font-size: 45px;
 }
 .social a:hover i{
+    opacity: 1;
     transform: scale(.9, .9);
     -moz-transform: scale(.9, .9);
     -webkit-transform: scale(.9, .9);
