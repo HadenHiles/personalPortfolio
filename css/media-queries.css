@@ -65,6 +65,12 @@
     .bio .bio-image{
         width: 35%;
     }
+    .navbar-right{
+        display: none;
+    }
+    .icon-nav{
+        display: block;
+    }
 }
 
 /* ALL SCREENS ABOVE SMALL SCREEN SIZES */
@@ -74,5 +80,12 @@
     }
     .navbar.sticky-nav .small_logo{
         display: block;
+    }
+}
+
+/* ALL SCREENS ABOVE 992px */
+@media (min-width: 992px){
+    .icon-nav{
+        display: none;
     }
 }
