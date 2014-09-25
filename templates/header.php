@@ -32,6 +32,8 @@
         </div>
     </div>
 <div class="bio">
+    <h3>Hi! My name is Haden Hiles,</h3>
+    <h3>Welcome to my website!</h3>
     <div class="bio-image">
         <img src="../images/me/haden.jpg" class="img-responsive" />
         <img src="../images/me/crazy-me-small.jpg" class="img-responsive" />
@@ -41,6 +43,9 @@
         <img src="../images/me/coldwater2.JPG" class="img-responsive" />
         <img src="../images/me/haden-guitar2.JPG" class="img-responsive" />
     </div>
-    <p>Hi! My name is Haden Hiles and you don't know me yet...</p>
-    <p>But let me start by welcoming you to my website!</p>
+    <p>I'm trying to fill up the internet with websites.. but lets hope that I don't.</p><br />
+    <p>My goal is to keep learning. Whether it be improving my skills in sports like hockey and golf,
+    or by pumping out websites week after week. I love building and designing websites because it gives me a rewarding
+    feeling as I do it. Web design and development is my tool for creativity and I believe that it is continually moving forward,
+    which for me is reason enough to invest my time in.</p>
 </div>
