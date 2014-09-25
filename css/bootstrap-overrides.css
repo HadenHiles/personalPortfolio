@@ -48,7 +48,7 @@
 .navbar.sticky-nav{
     position: fixed;
     top: 0;
-    background: rgba(0, 0, 0, .8) !important;
+    background: rgba(0, 0, 0, 1) !important;
     border-bottom: 2px dashed #fff;
     width: 100%;
     margin: 0;
@@ -90,6 +90,18 @@
         -moz-transform:scale(1.2);
         -webkit-transform:scale(1.2) !important;
         -ms-transform:scale(1.2);
+    }
+    .navbar ul li a.active{
+        -webkit-transition: all 200ms ease;
+        -moz-transition: all 200ms ease;
+        -ms-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease;
+        transform:scale(1.2) !important;
+        -moz-transform:scale(1.2);
+        -webkit-transform:scale(1.2) !important;
+        -ms-transform:scale(1.2);
+        border-top: 2px dashed #fff;
     }
 }
 
