@@ -42,5 +42,5 @@
         <img src="../images/me/haden-guitar2.JPG" class="img-responsive" />
     </div>
     <p>Hi! My name is Haden Hiles and you don't know me yet...</p>
-    <p>But that can change, starting with this website!</p>
+    <p>But let me start by welcoming you to my website!</p>
 </div>

@@ -93,13 +93,17 @@
     }
 }
 
+/* Screen sizes below 992px */
+@media (max-width: 991px){
+}
+
 /* Screen sizes below 768px */
-@media (max-width: 768px){
-    .navbar-nav.navbar-right{
-        background: rgba(255, 255, 255, 0.3) !important;
-    }
+@media (max-width: 767px){
     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
         border: none;
+    }
+    .navbar .navbar-nav.navbar-right{
+        background: rgba(255, 255, 255, .3) !important;
     }
     /* STICKY */
     .navbar.sticky-nav .navbar-nav.navbar-right{

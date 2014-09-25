@@ -76,6 +76,9 @@ header{
     -ms-border-radius: 50%;
     border: 5px dashed #fff;
 }
+.icon-nav li a span{
+    font-size: 25px;
+}
 /* HEADER STYLES END */
 
 /* TEMPLATE STYLES START */
@@ -108,7 +111,6 @@ header{
     position: fixed;
     z-index: 9999;
     top: 35%;
-    left: -10px;
     background: rgba(255, 255, 255, .5) !important;
     border: 2px dashed #000;
     border-left: none;
@@ -117,6 +119,7 @@ header{
     -moz-transform: scale(.6, .6);
     -webkit-transform: scale(.6, .6);
     -ms-transform: scale(.6, .6);
+    left: -10px;
     transition: .3s ease-in-out;
     -moz-transition: .3s ease-in-out;
     -webkit-transition: .3s ease-in-out;
@@ -124,11 +127,11 @@ header{
 }
 .social:hover{
     background: rgba(255, 255, 255, 1) !important;
-    left: 0;
     transform: scale(1, 1);
     -moz-transform: scale(1, 1);
     -webkit-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
+    left: 0;
     transition: .3s ease-in-out;
     -moz-transition: .3s ease-in-out;
     -webkit-transition: .3s ease-in-out;

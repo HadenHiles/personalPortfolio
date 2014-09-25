@@ -28,15 +28,14 @@ $(document).ready(function(){
             var s = skrollr.init({
                 forceHeight: false,
                 render: function(data) {
-                    //Debugging - Log the current scroll position.
-                    console.log(data.curTop);
+                    //Log the current scroll position for debugging.
+                    //console.log(data.curTop);
                 }
             });
         }
     } )( jQuery );
 
     /* MAKE THE NAVBAR STICK TO THE TOP OF THE SCREEN */
-
     //set up variables to improve performance/speed
     var $window = $(window);
     var $stickyElement = $('#navbar');

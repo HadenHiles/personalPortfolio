@@ -11,7 +11,7 @@
 }
 
 /* SMALL SCREEN SIZES */
-@media (max-width: 768px){
+@media (max-width: 767px){
     .large_logo{
         display: none;
     }
@@ -50,10 +50,16 @@
     .social{
         display: none;
     }
+    .navbar-right{
+        display: block !important;
+    }
+    .icon-nav{
+        display: none !important;
+    }
 }
 
 /* MEDIUM SCREEN SIZED */
-@media (max-width: 992px){
+@media (max-width: 991px){
     .bio p{
         max-width: 35%;
         margin: 0 auto;
@@ -73,6 +79,9 @@
     }
 }
 
+/* ALL SCREENS BELOW 1200px */
+@media (max-width: 1200px){}
+
 /* ALL SCREENS ABOVE SMALL SCREEN SIZES */
 @media (min-width: 768px){
     .navbar.sticky-nav .large_logo{
@@ -89,3 +98,6 @@
         display: none;
     }
 }
+
+/* ALL SCREENS ABOVE 1200px */
+@media (min-width: 1200px){}
