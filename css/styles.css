@@ -57,15 +57,20 @@ header{
     float: left;
     text-align: center;
     position: relative;
-    padding-bottom: 5%;
-    margin-top: 20%;
+    padding-bottom: 1%;
+    margin-top: 15%;
     transition: 1s ease-in-out;
     -moz-transition: 1s ease-in-out;
     -webkit-transition: 1s ease-in-out;
     -ms-transition: 1s ease-in-out;
 }
+.intro-message .col-sm-12.col-md-10.col-lg-6{
+    margin: 0 auto !important;
+    float: none !important;
+    text-align: center !important;
+}
 .bio .bio-image{
-    margin: 10px auto;
+    margin: 20px auto;
     width: 20%;
 }
 .bio .bio-image img{
@@ -200,6 +205,51 @@ header{
 }
 /* pinterest */
 .social a:hover i.fa-pinterest-square{
+    color: #cb2027;
+}
+.social-modal-button{
+    background: rgba(0, 0, 0, .8);
+    position: fixed;
+    left: 0;
+    top: 40%;
+    padding: 5px;
+    border: 2px dashed #fff;
+    border-left: none;
+}
+.social-modal-button ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social-modal-button ul li{
+    float: left;
+    width: 33.33333%;
+}
+.social-modal-button a i{
+    font-size: 60px;
+}
+/* GitHub */
+.social-modal-button a i.fa-github-square{
+    color: #333333;
+}
+/* linked in */
+.social-modal-button a i.fa-linkedin-square{
+    color: #007bb6;
+}
+/* facebook */
+.social-modal-button a i.fa-facebook-square{
+    color: #3b5998;
+}
+/* twitter */
+.social-modal-button a i.fa-twitter-square{
+    color: #00aced;
+}
+/* google plus */
+.social-modal-button a i.fa-google-plus-square{
+    color: #dd4b39;
+}
+/* pinterest */
+.social-modal-button a i.fa-pinterest-square{
     color: #cb2027;
 }
 /* SOCIAL BAR END */

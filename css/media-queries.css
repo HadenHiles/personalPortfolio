@@ -60,6 +60,9 @@
 
 /* MEDIUM SCREEN SIZED */
 @media (max-width: 991px){
+    .bio{
+        margin-top: 25%;
+    }
     .bio p{
         max-width: 35%;
         margin: 0 auto;
@@ -75,6 +78,12 @@
         display: none;
     }
     .icon-nav{
+        display: block;
+    }
+    .social{
+        display: none;
+    }
+    .social-modal-button{
         display: block;
     }
 }
@@ -95,6 +104,9 @@
 /* ALL SCREENS ABOVE 992px */
 @media (min-width: 992px){
     .icon-nav{
+        display: none;
+    }
+    .social-modal-button{
         display: none;
     }
 }

@@ -18,6 +18,9 @@
             <li><a href="http://www.pinterest.com/hadenhiles/"><i class="fa fa-pinterest-square"></i></a></li>
         </ul>
     </div>
+    <div class="social-modal-button">
+        <h3><a data-toggle="modal" data-target="#myModal"></h3>
+    </div>
     <?
         include($_SERVER['DOCUMENT_ROOT'].'/templates/header.php');
         include($_SERVER['DOCUMENT_ROOT'].'/templates/portfolio.php');

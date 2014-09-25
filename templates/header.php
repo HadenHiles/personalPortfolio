@@ -53,3 +53,27 @@
         which for me is reason enough to invest my time in.</p>
     </div>
 </div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Follow Me</h4>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li><a href="https://github.com/HadenHiles"><i class="fa fa-github-square"></i></a></li>
+                    <li><a href="https://www.linkedin.com/pub/haden-hiles/82/108/676"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="https://twitter.com/HadenHiles"><i class="fa fa-twitter-square"></i></a></li>
+                    <li><a href="https://www.facebook.com/haden.hiles"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="https://plus.google.com/106821251778382631071/"><i class="fa fa-google-plus-square"></i></a></li>
+                    <li><a href="http://www.pinterest.com/hadenhiles/"><i class="fa fa-pinterest-square"></i></a></li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
