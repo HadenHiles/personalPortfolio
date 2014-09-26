@@ -18,6 +18,10 @@
                                     <input type="text" name="name" placeholder="First & Last" required/>
                                 </div>
                                 <div class="col-sm-12">
+                                    <label>Email: </label><br />
+                                    <input type="text" name="email" placeholder="Email" required/>
+                                </div>
+                                <div class="col-sm-12">
                                     <label>Subject: </label><br />
                                     <input type="text" name="subject" placeholder="Subject" required/>
                                 </div>

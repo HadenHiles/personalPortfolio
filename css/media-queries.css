@@ -8,6 +8,9 @@
     .bio .bio-image{
         width: 70% !important;
     }
+    .intro-message .col-sm-12.col-md-10.col-lg-6{
+        text-align: left !important;
+    }
 }
 
 /* SMALL SCREEN SIZES */
@@ -19,7 +22,7 @@
         display: block;
     }
     .bio{
-        margin-top: 35%;
+        margin-top: 35% !important;
         transition: 1s ease-in-out;
         -moz-transition: 1s ease-in-out;
         -webkit-transition: 1s ease-in-out;
@@ -84,7 +87,7 @@
         display: none;
     }
     .social-modal-button{
-        display: block;
+        display: block !important;
     }
 }
 

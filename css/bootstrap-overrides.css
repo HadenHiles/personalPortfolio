@@ -12,7 +12,7 @@
     background: rgba(255, 255, 255, .0);
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
-    z-index: 9999;
+    z-index: 101;
     transition: 1s all ease-in-out;
     -moz-transition: 1s all ease-in-out;
     -webkit-transition: 1s all ease-in-out;
@@ -28,13 +28,13 @@
     transition: all 200ms ease;
 }
 .navbar ul li a.active{
-    color: #000;
+
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
     background: none;
 }
 .navbar ul li a:hover{
-    color: #000 !important;
+
 }
 .navbar-brand{
     height: auto;
@@ -115,7 +115,22 @@
         border: none;
     }
     .navbar .navbar-nav.navbar-right{
-        background: rgba(255, 255, 255, .3) !important;
+        background: #333333 !important;
+    }
+    .navbar ul{
+        padding: 0 15px;
+    }
+    .navbar ul li a:hover{
+        color: #fff;
+        -webkit-transition: all 200ms ease;
+        -moz-transition: all 200ms ease;
+        -ms-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease;
+        transform:scale(1.02) !important;
+        -moz-transform:scale(1.02);
+        -webkit-transform:scale(1.02) !important;
+        -ms-transform:scale(1.02);
     }
     /* STICKY */
     .navbar.sticky-nav .navbar-nav.navbar-right{
