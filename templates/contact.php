@@ -10,21 +10,25 @@
                     <h2>Contact Me</h2>
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
-                        <form method="post" action="send_email.php">
+                        <form method="post" action="mailto:hschnizel@gmail.com, subject=Question%20for%20Haden">
+                            <?
+                                $error = $_REQUEST['error'];
+                                echo '<p class="error">' . $error . '</p>';
+                            ?>
                             <fieldset>
                                 <legend>Have a Question? Reach me using the form below.</legend>
                                 <div class="col-sm-12">
                                     <label>Name: </label><br />
-                                    <input type="text" name="name" placeholder="First & Last" required/>
+                                    <input type="text" name="name" placeholder="Name" required/>
                                 </div>
-                                <div class="col-sm-12">
+                                <!--<div class="col-sm-12">
                                     <label>Email: </label><br />
                                     <input type="text" name="email" placeholder="Email" required/>
                                 </div>
                                 <div class="col-sm-12">
                                     <label>Subject: </label><br />
                                     <input type="text" name="subject" placeholder="Subject" required/>
-                                </div>
+                                </div>-->
                                 <div class="col-sm-12">
                                     <label>Message: </label><br />
                                     <textarea name="message" required></textarea>
