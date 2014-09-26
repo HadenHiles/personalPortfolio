@@ -32,7 +32,7 @@
         </div>
     </div>
 <div class="bio">
-    <h3>Hi! My name is Haden Hiles,<br />
+    <h3 class="welcome">Hi! My name is Haden Hiles,<br />
     Welcome to my website!</h3>
     <div class="bio-image">
         <img src="../images/me/haden.jpg" class="img-responsive" />
@@ -53,13 +53,16 @@
         which for me is reason enough to invest my time in.</p>
     </div>
 </div>
+<div class="social-modal-button">
+        <h3><a data-toggle="modal" data-target="#myModal" href="#myModal">C O N N E C T</a></h3>
+    </div>
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="myModalLabel">Follow Me</h4>
+                <h4 class="modal-title" id="myModalLabel" style="color: #000;">Connect With Me</h4>
             </div>
             <div class="modal-body">
                 <ul>
@@ -72,7 +75,7 @@
                 </ul>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" style="margin-top: 10px;">Close</button>
             </div>
         </div>
     </div>

@@ -10,7 +10,7 @@
                     <h2>About Me</h2>
                     <div class="col-sm-12">
                         <div class="col-md-6 col-lg-4" style="padding-bottom: 2%">
-                            <img src="../images/content/web-design.png" class="img-responsive" />
+                            <img src="../images/content/coldwater2.JPG" class="img-responsive" />
                         </div>
                         <div class="col-md-6 col-lg-8">
                             <p>I am a Georgian College student who growing up always had an interest in sports and computer technology. Throughout my life there was never a time when I wasn’t involved in sports. Whether it was soccer out of Orillia, ON in the summer, hockey out of Coldwater, ON in the winter, or any other sport I could squeeze in throughout my elementary and high school years such as basketball, school hockey, school soccer, volleyball, and badminton.</p>
@@ -22,7 +22,7 @@
                             <p>Every day I continue to develop as a person and increase my knowledge with web design/development and programming.  The nice thing about being a computer geek who also loves sports is that I always get a break from that computer screen! I am a computer technology enthusiast, student, and web guru who loves sports. That's my story and I'm proud of it!</p>
                         </div>
                         <div class="col-md-6 col-lg-4">
-                            <img src="../images/content/coldwater2.JPG" class="img-responsive" />
+                            <img src="../images/me/me+bro.JPG" class="img-responsive" />
                         </div>
                     </div>
                 </div>

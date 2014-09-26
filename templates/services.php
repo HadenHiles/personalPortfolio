@@ -12,12 +12,31 @@
                         <img src="../images/content/web-design.png" class="img-responsive" />
                     </div>
                     <div class="col-sm-8">
-                        <p></p>
+                        <p>I take passion in designing good looking websites. If you are in need of a fancy looking website for you or your
+                        business, I might be just what you need to get the job done.  I have a job at a web design and marketing company in
+                        barrie. So as you can imagine, my knowledge for the web is increasing every day. I can create wordpress websites
+                        so that you can manage content yourself, or I am willing to author content if you push me in the right direction.</p>
+                        <p>If you are in need of a custom content management system that is simple to use I can also direct you towards the
+                        company I work for.</p>
                     </div>
                     <div class="col-sm-8">
-                        <p></p>
+                        <p>Below are a few of the services that I provide:</p>
+                        <ul>
+                            <li>Fully responsive websites</li>
+                            <li>Wordpress Blogs & Websites</li>
+                            <li>Front end user registration and login systems</li>
+                            <li>Web animations</li>
+                            <li>Server side Forms</li>
+                            <li>Logo designs</li>
+                            <li>Video editing and filming</li>
+                            <li>Content authoring (if needed)</li>
+                            <li>In person Wordpress content management tutorials</li>
+                            <li>Tutoring for introduction to web design & advanced responsive web design</li>
+                        </ul>
+                        <p>For more information or to get a quote for your new website please feel free to contact me using the form provided at the
+                        <a onclick="$('html, body').animate({scrollTop: $('#contact').offset().top - 60}, 1000);" style="color: #fff; text-decoration: underline;">bottom of the page</a>.</p>
                     </div>
-                    <div class="col-sm-4"><img src="" class="img-responsive" /></div>
+                    <div class="col-sm-4"><img src="../images/content/wordpress.png" class="img-responsive" /></div>
                 </div>
             </div>
         </div>
