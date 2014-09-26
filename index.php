@@ -24,6 +24,7 @@
         include($_SERVER['DOCUMENT_ROOT'].'/templates/about.php');
         include($_SERVER['DOCUMENT_ROOT'].'/templates/services.php');
         include($_SERVER['DOCUMENT_ROOT'].'/templates/contact.php');
+        include($_SERVER['DOCUMENT_ROOT'].'/templates/footer.php');
     ?>
 </body>
 </html>
