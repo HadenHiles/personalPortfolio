@@ -1,3 +1,8 @@
+<!--
+File Name: header
+Author: Haden hIles
+File Description: this file is used to include the navigation as well as cycling pictures of me and some biography text
+-->
 <header>
 </header>
 <div class="navbar navbar-inverse" id="navbar" role="navigation">
@@ -47,10 +52,10 @@
 <div class="intro-message">
     <div class="col-sm-12 col-md-10 col-lg-6">
         <p>I'm trying to fill up the internet with websites.. but lets hope that I don't.</p><br />
-        <p>My goal is to keep learning. Whether it be improving my skills in sports like hockey and golf,
-        or by pumping out websites week after week. I love building and designing websites because it gives me a rewarding
+        <p>My goal is to keep learning. Whether it be improving my skills in sports like hockey and golf, getting better
+        at guitar, or by pumping out websites week after week. I love building and designing websites because it gives me a rewarding
         feeling as I do it. Web design and development is my tool for creativity and I believe that it is continually moving forward,
-        which for me is reason enough to invest my time in.</p>
+        which is reason enough for me to invest my time in.</p>
     </div>
 </div>
 <div class="social-modal-button">

@@ -12,6 +12,9 @@
  *
  * Free to use under terms of MIT license
  */
+/* File Name: skrollr
+ * File Description: this is an un-modified version of skrollr.js, copyright is included above
+ */
 (function(window, document, undefined) {
     'use strict';
 

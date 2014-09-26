@@ -1,3 +1,8 @@
+<!--
+File Name: services
+Author: Haden hIles
+File Description: this section will highlight exactly what it is I can provide to people if they are looking for business
+-->
 <div class="services" id="services">
     <section id="slide-1" class="homeSlide">
         <div class="bcg"

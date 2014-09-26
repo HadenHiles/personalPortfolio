@@ -1,3 +1,8 @@
+<!--
+File Name: footer
+Author: Haden hIles
+File Description: this file is used to display contact info, mini navigation, as well as a connected section and copyright links
+-->
 <div class="footer" id="footer">
     <section id="slide-1" class="homeSlide">
         <div class="bcg"

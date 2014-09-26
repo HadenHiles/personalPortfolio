@@ -1,7 +1,9 @@
-@charset "utf-8";
-/*
-    BOOTSTRAP OVERRIDES STYLESHEET
+/* File Name: bootstrap-overrides
+* Author: Haden hIles
+* File Description: used to overide the default styles of bootstrap - could have used a normalize.css but wanted to keep most bootstrap styles
+* to begin with
 */
+@charset "utf-8";
 
 /* NAVBAR STYLES START */
 .navbar{

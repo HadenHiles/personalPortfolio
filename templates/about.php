@@ -1,3 +1,8 @@
+<!--
+File Name: about
+Author: Haden hIles
+File Description: this section will contain info about myself and my current resume
+-->
 <div class="about" id="about">
     <section id="slide-1" class="homeSlide">
         <div class="bcg"
@@ -20,6 +25,7 @@
                         <div class="col-md-6 col-lg-8">
                             <p>As you can see, sports have played a huge role in shaping who I am as a person today. As a result of participating in sports I have developed many different people skills. Throughout the past years I have enjoyed learning about the capabilities of website design using HTML5 and CSS3. In my first year of college I learned basic programming using Java and have had great experiences with PHP, MYSQL, Javascript, and Jquery throughout the school year, on my spare time, as well as during my summer 2014 co-op/job at Media Suite Inc.</p>
                             <p>Every day I continue to develop as a person and increase my knowledge with web design/development and programming.  The nice thing about being a computer geek who also loves sports is that I always get a break from that computer screen! I am a computer technology enthusiast, student, and web guru who loves sports. That's my story and I'm proud of it!</p>
+                            <br /><p><a href="" style="text-decoration: underline; color: #fff;">Click Here</a> for a current version of my resume.</p>
                         </div>
                         <div class="col-md-6 col-lg-4">
                             <img src="../images/me/me+bro.JPG" class="img-responsive" />

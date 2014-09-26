@@ -1,3 +1,8 @@
+<!--
+File Name: index
+Author: Haden hIles
+File Description: this is the main page of the website where all templates/sections will be loaded
+-->
 <!DOCTYPE html>
 <html>
 <head>

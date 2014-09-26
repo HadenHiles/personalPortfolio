@@ -3,6 +3,9 @@
  * http://jquery.malsup.com/cycle2/
  * Copyright (c) 2014 M. Alsup; Dual licensed: MIT/GPL
  */
+/* File Name: cycle2 javascript
+* File Description: this is an un-modified version of cycle2.js, copyright is included above
+*/
 
 /* Cycle2 core engine */
 ;(function($) {

@@ -4,6 +4,10 @@
  * Date: 2014-09-19
  * Time: 3:38 PM
  * To change this template use File | Settings | File Templates.
+ * File Name: main javascript
+ * Author: Haden hIles
+ * File Description: this jquery based file is where I will be calling all of the necessary functions needed
+ * to make my site work with animations and image cycling as well as parallax scrolling (see included js files for cycle and skrollr)
  */
 
 $(document).ready(function(){

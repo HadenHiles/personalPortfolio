@@ -1,4 +1,7 @@
-/* CSS */
+/* File Name: skrollr
+* Author: Haden hIles
+* File Description: used to apply styles to the skrollr parallax elements
+*/
 .about .hsContainer{
     background: rgba(0, 0, 0, 0.8);
     float: left;

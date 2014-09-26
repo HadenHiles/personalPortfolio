@@ -1,3 +1,8 @@
+<!--
+File Name: contact
+Author: Haden hIles
+File Description: this section is designed to provide an easy way to contact me
+-->
 <div class="contact" id="contact">
     <section id="slide-1" class="homeSlide">
         <div class="bcg"
@@ -10,13 +15,9 @@
                     <h2>Contact Me</h2>
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
-                        <form method="post" action="mailto:hschnizel@gmail.com, subject=Question%20for%20Haden">
-                            <?
-                                $error = $_REQUEST['error'];
-                                echo '<p class="error">' . $error . '</p>';
-                            ?>
+                        <form method="post" action="mailto:hschnizel@gmail.com?subject=Question%20for%20Haden">
                             <fieldset>
-                                <legend>Have a Question? Reach me using the form below.</legend>
+                                <legend>Have a Question? Reach me using the simple form below.</legend>
                                 <div class="col-sm-12">
                                     <label>Name: </label><br />
                                     <input type="text" name="name" placeholder="Name" required/>
@@ -34,7 +35,7 @@
                                     <textarea name="message" required></textarea>
                                 </div>
                                 <div class="col-sm-12">
-                                    <input type="submit" name="submit" value="Send" />
+                                    <input type="submit" value="Send" />
                                 </div>
                             </fieldset>
                         </form>

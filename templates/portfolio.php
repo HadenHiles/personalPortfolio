@@ -1,3 +1,8 @@
+<!--
+File Name: portfolio
+Author: Haden hIles
+File Description: this section will highlight some of the projects that I have completed over the past year or two
+-->
 <div class="portfolio" id="portfolio">
     <section id="slide-1" class="homeSlide">
         <div class="bcg"
