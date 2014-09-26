@@ -3,6 +3,10 @@
     background: rgba(0, 0, 0, 0.8);
     float: left;
 }
+.contact .hsContainer{
+    background: rgba(0, 0, 0, 0.8);
+    float: left;
+}
 .portfolio .hsContainer{
     padding: 0 0 40px 0;
 }
