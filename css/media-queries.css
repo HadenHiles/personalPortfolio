@@ -60,6 +60,10 @@
     .icon-nav{
         display: none !important;
     }
+    .footer .hsContent .col-sm-4{
+        margin: 0 auto;
+        margin: 2% 0 !important;
+    }
 }
 
 /* MEDIUM SCREEN SIZED */

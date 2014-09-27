@@ -158,8 +158,8 @@ fieldset input{
     color: #000;
 }
 fieldset textarea{
-    width: 55%;
-    max-width: 60%;
+    width: 80%;
+    max-width: 90%;
     height: 120px;
     max-height: 300px;
     color: #000;
@@ -175,37 +175,69 @@ fieldset textarea{
     margin: 30px 0;
     background: #000;
 }
+.footer ul{
+    margin: 0;
+    padding: 0;
+}
+.footer .contact-info ul li{
+    list-style: disc;
+    float: none;
+    margin: auto;
+    width: auto;
+}
+.footer .navigate ul li{
+    display: block;
+}
 .footer ul li{
     list-style: none;
-    float: left;
-    margin-right: 1%;
+    display: inline;
+    margin: 1% 1% 0 0;
     width: 30.33333%;
 }
+.footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer ul li a:hover{
+    color: #fff;
+}
 .footer a i{
+    color: #fff;
     font-size: 40px;
+    border: none;
+    transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+    -ms-transition: .3s all ease-in-out;
+}
+.footer a:hover i{
+    transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+    -ms-transition: .3s all ease-in-out;
 }
 /* GitHub */
-.footer a i.fa-github-square{
+.footer a:hover i.fa-github-square{
     color: #333333;
 }
 /* linked in */
-.footer a i.fa-linkedin-square{
+.footer a:hover i.fa-linkedin-square{
     color: #007bb6;
 }
 /* facebook */
-.footer a i.fa-facebook-square{
+.footer a:hover i.fa-facebook-square{
     color: #3b5998;
 }
 /* twitter */
-.footer a i.fa-twitter-square{
+.footer a:hover i.fa-twitter-square{
     color: #00aced;
 }
 /* google plus */
-.footer a i.fa-google-plus-square{
+.footer a:hover i.fa-google-plus-square{
     color: #dd4b39;
 }
 /* pinterest */
-.footer a i.fa-pinterest-square{
+.footer a:hover i.fa-pinterest-square{
     color: #cb2027;
 }
 /* FOOTER STYLE END */

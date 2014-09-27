@@ -13,10 +13,10 @@ File Description: this section will highlight exactly what it is I can provide t
             <div class="hsContainer">
                 <div class="hsContent">
                     <h2>Services</h2>
-                    <div class="col-sm-4" style="padding-bottom: 2%">
+                    <div class="col-sm-6 col-md-6 col-lg-4" style="padding-bottom: 2%">
                         <img src="../images/content/web-design.png" class="img-responsive" />
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-6 col-md-6 col-lg-8">
                         <p>I take passion in designing good looking websites. If you are in need of a fancy looking website for you or your
                         business, I might be just what you need to get the job done.  I have a job at a web design and marketing company in
                         barrie. So as you can imagine, my knowledge for the web is increasing every day. I can create wordpress websites
@@ -24,7 +24,7 @@ File Description: this section will highlight exactly what it is I can provide t
                         <p>If you are in need of a custom content management system that is simple to use I can also direct you towards the
                         company I work for.</p>
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-6 col-md-6 col-lg-8">
                         <p>Below are a few of the services that I provide:</p>
                         <ul>
                             <li>Fully responsive websites</li>
@@ -41,7 +41,7 @@ File Description: this section will highlight exactly what it is I can provide t
                         <p>For more information or to get a quote for your new website please feel free to contact me using the form provided at the
                         <a onclick="$('html, body').animate({scrollTop: $('#contact').offset().top - 60}, 1000);" style="color: #fff; text-decoration: underline;">bottom of the page</a>.</p>
                     </div>
-                    <div class="col-sm-4"><img src="../images/content/wordpress.png" class="img-responsive" /></div>
+                    <div class="col-sm-6 col-md-6 col-lg-4"><img src="../images/content/wordpress.png" class="img-responsive" /></div>
                 </div>
             </div>
         </div>

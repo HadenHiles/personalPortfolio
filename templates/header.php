@@ -19,19 +19,19 @@ File Description: this file is used to include the navigation as well as cycling
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a onclick="$('html, body').animate({scrollTop: $('body').offset().top}, 1000);">Home</a></li>
-                    <li><a onclick="$('html, body').animate({scrollTop: $('#portfolio').offset().top - 90}, 1000);">Portfolio</a></li>
-                    <li><a onclick="$('html, body').animate({scrollTop: $('#about').offset().top - 60}, 1000);">About</a></li>
-                    <li><a onclick="$('html, body').animate({scrollTop: $('#services').offset().top - 60}, 1000);">Services</a></li>
+                    <li><a onclick="$('html, body').animate({scrollTop: $('#portfolio').offset().top - 110}, 1000);">Portfolio</a></li>
+                    <li><a onclick="$('html, body').animate({scrollTop: $('#about').offset().top - 80}, 1000);">About</a></li>
+                    <li><a onclick="$('html, body').animate({scrollTop: $('#services').offset().top - 80}, 1000);">Services</a></li>
                     <li><a href="http://learnfromhaden.moonrockfamily.ca">Blog</a></li>
-                    <li><a onclick="$('html, body').animate({scrollTop: $('#contact').offset().top - 60}, 1000);">Contact</a></li>
+                    <li><a onclick="$('html, body').animate({scrollTop: $('#contact').offset().top - 80}, 1000);">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right icon-nav">
                     <li><a onclick="$('html, body').animate({scrollTop: $('body').offset().top}, 1000);"><span class="glyphicon glyphicon-home"></span></a></li>
-                    <li><a onclick="$('html, body').animate({scrollTop: $('#portfolio').offset().top - 90}, 1000);"><span class="glyphicon glyphicon-folder-open"></span></a></li>
-                    <li><a onclick="$('html, body').animate({scrollTop: $('#about').offset().top - 60}, 1000);"><span class="glyphicon glyphicon-question-sign"></span></a></li>
-                    <li><a onclick="$('html, body').animate({scrollTop: $('#services').offset().top - 60}, 1000);"><span class="glyphicon glyphicon-ok-sign"></span></a></li>
+                    <li><a onclick="$('html, body').animate({scrollTop: $('#portfolio').offset().top - 110}, 1000);"><span class="glyphicon glyphicon-folder-open"></span></a></li>
+                    <li><a onclick="$('html, body').animate({scrollTop: $('#about').offset().top - 80}, 1000);"><span class="glyphicon glyphicon-question-sign"></span></a></li>
+                    <li><a onclick="$('html, body').animate({scrollTop: $('#services').offset().top - 80}, 1000);"><span class="glyphicon glyphicon-ok-sign"></span></a></li>
                     <li><a href="http://learnfromhaden.moonrockfamily.ca"><span class="glyphicon glyphicon-comment"></span></a></li>
-                    <li><a onclick="$('html, body').animate({scrollTop: $('#contact').offset().top - 60}, 1000);"><span class="glyphicon glyphicon-envelope"></span></a></li>
+                    <li><a onclick="$('html, body').animate({scrollTop: $('#contact').offset().top - 80}, 1000);"><span class="glyphicon glyphicon-envelope"></span></a></li>
                 </ul>
             </div>
         </div>
