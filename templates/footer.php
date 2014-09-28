@@ -13,18 +13,7 @@ File Description: this page is used to display contact info, mini navigation, as
         >
             <div class="hsContainer">
                 <div class="hsContent">
-                    <div class="col-sm-4 col-md-4 col-lg-4 navigate">
-                        <h3>Navigate</h3>
-                        <ul>
-                            <li class="active"><a onclick="$('html, body').animate({scrollTop: $('body').offset().top}, 1000);">Home</a></li>
-                            <li><a onclick="$('html, body').animate({scrollTop: $('#portfolio').offset().top - 110}, 1000);">Portfolio</a></li>
-                            <li><a onclick="$('html, body').animate({scrollTop: $('#about').offset().top - 80}, 1000);">About</a></li>
-                            <li><a onclick="$('html, body').animate({scrollTop: $('#services').offset().top - 80}, 1000);">Services</a></li>
-                            <li><a href="http://learnfromhaden.moonrockfamily.ca">Blog</a></li>
-                            <li><a onclick="$('html, body').animate({scrollTop: $('#contact').offset().top - 80}, 1000);">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4 contact-info">
+                    <div class="col-sm-6 col-md-6 col-lg-6 contact-info">
                         <h3>Contact Info</h3>
                         <ul>
                             <li>Email: hadenhiles@gmail.com</li>
@@ -33,7 +22,7 @@ File Description: this page is used to display contact info, mini navigation, as
                             <li>Address: 25 Alpine Dr. Moonstone On</li>
                         </ul>
                     </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
                         <h3>Connect With Me</h3>
                         <ul>
                             <li><a href="https://github.com/HadenHiles"><i class="fa fa-github-square"></i></a></li>
@@ -43,6 +32,13 @@ File Description: this page is used to display contact info, mini navigation, as
                             <li><a href="https://plus.google.com/106821251778382631071/"><i class="fa fa-google-plus-square"></i></a></li>
                             <li><a href="http://www.pinterest.com/hadenhiles/"><i class="fa fa-pinterest-square"></i></a></li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="hsContainer" style="background: #1D1D1D; float: left; margin: 20px 0 0 0; padding: 26px 0 19px 0;">
+                <div class="hsContent">
+                    <div class="col-sm-12" style="text-align: center;">
+                        <p>Copyright &copy; <?=date('Y')?> Haden Hiles</p>
                     </div>
                 </div>
             </div>
