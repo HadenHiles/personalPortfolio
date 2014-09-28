@@ -107,9 +107,17 @@
 @media (min-width: 768px){
     .navbar.sticky-nav .large_logo{
         display: none;
+        transition: 1s ease-in-out;
+        -moz-transition: 1s ease-in-out;
+        -webkit-transition: 1s ease-in-out;
+        -ms-transition: 1s ease-in-out;
     }
     .navbar.sticky-nav .small_logo{
         display: block;
+        transition: 1s ease-in-out;
+        -moz-transition: 1s ease-in-out;
+        -webkit-transition: 1s ease-in-out;
+        -ms-transition: 1s ease-in-out;
     }
 }
 

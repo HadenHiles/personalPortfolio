@@ -23,11 +23,10 @@
 .navbar ul li a{
     color: #fff !important;
     text-shadow: 1px 1px #000;
-    -webkit-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-    -o-transition: all 200ms ease;
-    transition: all 200ms ease;
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
 }
 .navbar ul li a.active{
 
@@ -39,8 +38,18 @@
 .navbar ul li a:hover{
     text-shadow: .5px .5px #000;
 }
+.navbar-right{
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+}
 .navbar-brand{
     height: auto;
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
 }
 .navbar-inverse .navbar-toggle{
     border: none;
@@ -63,13 +72,25 @@
 .navbar.sticky-nav ul li a{
     padding: 10px 15px;
     margin: 0;
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
 }
 .navbar.sticky-nav .navbar-nav.navbar-right{
     margin: 24px 0;
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
 }
 .navbar.sticky-nav .navbar-brand{
     height: auto;
     margin: 0;
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
 }
 /* STICKY NAVBAR END */
 
