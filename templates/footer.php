@@ -35,7 +35,7 @@ File Description: this page is used to display contact info, mini navigation, as
                     </div>
                 </div>
             </div>
-            <div class="hsContainer" style="background: #1D1D1D; float: left; margin: 20px 0 0 0; padding: 26px 0 19px 0;">
+            <div class="hsContainer" style="background: #222; float: left; margin: 20px 0 0 0; padding: 26px 0 19px 0;">
                 <div class="hsContent">
                     <div class="col-sm-12" style="text-align: center;">
                         <p>Copyright &copy; <?=date('Y')?> Haden Hiles</p>

@@ -12,6 +12,10 @@
     .intro-message .col-sm-12.col-md-10.col-lg-6{
         text-align: left !important;
     }
+    .about .hsContainer{
+        background: rgba(0, 0, 0, 0.6);
+        float: left;
+    }
 }
 
 /* SMALL SCREEN SIZES */
@@ -60,9 +64,9 @@
     .icon-nav{
         display: none !important;
     }
-    .footer .hsContent .col-sm-4{
+    .footer .hsContent .col-sm-6{
         margin: 0 auto;
-        margin: 2% 0 !important;
+        margin: 4% 0 !important;
     }
 }
 
@@ -116,6 +120,9 @@
     }
     .social-modal-button{
         display: none;
+    }
+    .footer .hsContent{
+        max-width: 60%;
     }
 }
 

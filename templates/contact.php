@@ -17,7 +17,7 @@ File Description: this section is designed to provide an easy way to contact me
                     <div class="col-sm-8">
                         <form method="post" action="mailto:hschnizel@gmail.com?subject=Question%20for%20Haden">
                             <fieldset>
-                                <legend>Have a Question? Reach me using the simple form below.</legend>
+                                <legend>Have a Question? Send me an Email!</legend>
                                 <div class="col-sm-12">
                                     <label>Name: </label><br />
                                     <input type="text" name="name" placeholder="Name" required/>
