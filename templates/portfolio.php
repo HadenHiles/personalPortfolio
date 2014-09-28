@@ -28,21 +28,38 @@ File Description: this section will highlight some of the projects that I have c
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img alt="" src="http://placehold.it/1200x315">
+                            <img alt="" src="/images/content/arnott-image.jpg" />
                             <div class="carousel-caption">
-                              <h3>Caption Text</h3>
+                                <h3>Arnott Construction</h3>
+                                <p>
+                                    This is a project that I completed over the course of a couple weeks for Arnott Construction Ltd.
+                                    In order to re-do their old website and make it look newer as well as organize their desired content I had
+                                    to meet with the President and CEO to discuss what their needs and desires were. Although this project was
+                                    meant to be a simple revamp of the old site, it turned out to be a great learning experience for making website design
+                                    and layout decisions, as well as some content organization using javascript with help from my dad. On the tech side I
+                                    used some simple javascript to create a "sticky" navigation as well as CSS media queries to make the website look good
+                                    on all screen sizes. As a result of my hard work, the President and CEO of Arnott Construction are very happy with
+                                    the end result of their new website, and I am proud to have recieved that recognition from them.
+                                </p>
                             </div>
                         </div>
                         <div class="item">
-                            <img alt="" src="http://placehold.it/1200x315">
+                            <img alt="" src="/images/content/hgame-image.jpg" />
                             <div class="carousel-caption">
-                              <h3>Caption Text</h3>
+                                <h3><a href="http://hgame.moonrockfamily.ca">HGame</a></h3>
+                                <p>This site started off with an idea to have all the online games that I like in one place and then I thought to myself "Why can't everyone have this?" and that is when I started to make HGame. Basically you can come to my HGame website and register as a user. Once you are a user you have the ability to add your own games to the site. I am currently in the process of adding features that make this process easier as well as planning to implement features tailored to each user. For example each user could have a list of their favourite games, or include a way for people to add their high scores of each game. Feel free to check it out by clicking the link above the HGame image!</p>
                             </div>
                         </div>
                         <div class="item">
-                            <img alt="" src="http://placehold.it/1200x315">
+                            <img alt="" src="/images/content/everythingweb-image.jpg">
                             <div class="carousel-caption">
-                              <h3>Caption Text</h3>
+                                <h3>Everything Web</h3>
+                                <p>
+                                    This website was my first Wordpress site. It was a learning curve for to introduce myself to Wordpress and how it works
+                                    but in the end my struggles payed off. I now have a fully functional blogging website that I use to keep track of everything
+                                    that I learn regarding computer science. I use it mostly for things that I learn to do with web development and design but sometimes for other topics too.
+                                    This blog is what I call my gateway into Wordpress and I am still grateful that I challenged myself to build it my first year of college in 2013.
+                                </p>
                             </div>
                         </div>
                     </div>

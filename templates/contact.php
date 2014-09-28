@@ -1,7 +1,6 @@
 <!--
 File Name: contact
-Author: Haden Hiles
-Website: Haden - Personal Portfolio
+Author: Haden hIles
 File Description: this section is designed to provide an easy way to contact me
 -->
 <div class="contact" id="contact">

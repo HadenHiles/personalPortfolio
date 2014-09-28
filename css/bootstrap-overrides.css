@@ -12,7 +12,7 @@
     position: absolute;
     border-radius: 0;
     background: rgba(255, 255, 255, .0);
-    font-size: 17px;
+    font-size: 19px;
     font-family: 'Montserrat', sans-serif;
     z-index: 101;
     transition: 1s all ease-in-out;
@@ -34,9 +34,10 @@
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
     background: none;
+    text-shadow: none;
 }
 .navbar ul li a:hover{
-
+    text-shadow: .5px .5px #000;
 }
 .navbar-brand{
     height: auto;

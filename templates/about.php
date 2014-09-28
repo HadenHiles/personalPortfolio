@@ -26,11 +26,10 @@ File Description: this section will contain info about myself and my most recent
                         <div class="col-md-6 col-lg-8">
                             <p>As you can see, sports have played a huge role in shaping who I am as a person today. As a result of participating in sports I have developed many different people skills. Throughout the past years I have enjoyed learning about the capabilities of website design using HTML5 and CSS3. In my first year of college I learned basic programming using Java and have had great experiences with PHP, MYSQL, Javascript, and Jquery throughout the school year, on my spare time, as well as during my summer 2014 co-op/job at Media Suite Inc.</p>
                             <p>Every day I continue to develop as a person and increase my knowledge with web design/development and programming.  The nice thing about being a computer geek who also loves sports is that I always get a break from that computer screen! I am a computer technology enthusiast, student, and web guru who loves sports. That's my story and I'm proud of it!</p>
-                            <br /><p><a href="" style="text-decoration: underline; color: #fff;">Click Here</a> for a current version of my resume.</p>
+                            <br /><p>For the most recent version of my CV please <a href="https://docs.google.com/document/d/1IryJEpkz2lZIOEP8QfW_f4jdDPqtjhqIDrUkIfi3N0I/edit?usp=sharing" style="color: #fff; text-decoration: underline;">Click Here</a></p>
                         </div>
                         <div class="col-md-6 col-lg-4">
                             <img alt="" src="../images/me/me+bro.JPG" class="img-responsive" />
-                            <p>For the most recent version of my resume <a href="https://docs.google.com/document/d/1IryJEpkz2lZIOEP8QfW_f4jdDPqtjhqIDrUkIfi3N0I/edit?usp=sharing" style="color: #fff; text-decoration: underline;">Click Here</a></p>
                         </div>
                     </div>
                 </div>

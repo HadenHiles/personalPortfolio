@@ -24,6 +24,7 @@
 }
 .services .hsContainer{
     float: left;
+    padding: 15px 0 !important;
 }
 .services .hsContent{
     max-width: 80%;
