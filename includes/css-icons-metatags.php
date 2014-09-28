@@ -14,5 +14,5 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
 <!--Fonts-->
-<link href='http://fonts.googleapis.com/css?family=Montserrat|Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css/family%3DMontserrat%7COpen%2BSans' rel='stylesheet' type='text/css'>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">

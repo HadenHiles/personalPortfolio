@@ -1,14 +1,15 @@
 <!--
 File Name: contact
-Author: Haden hIles
+Author: Haden Hiles
+Website: Haden - Personal Portfolio
 File Description: this section is designed to provide an easy way to contact me
 -->
 <div class="contact" id="contact">
-    <section id="slide-1" class="homeSlide">
+    <section id="slide-4" class="homeSlide">
         <div class="bcg"
             data-center="background-position: 50% 0px;"
             data-top-bottom="background-position: 50% -100px;"
-            data-anchor-target="#slide-1"
+            data-anchor-target="#slide-4"
         >
             <div class="hsContainer">
                 <div class="hsContent">

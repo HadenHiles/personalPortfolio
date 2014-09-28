@@ -181,6 +181,7 @@ fieldset textarea{
 }
 .footer .contact-info ul li{
     list-style: disc;
+    display: block;
     float: none;
     margin: auto;
     width: auto;

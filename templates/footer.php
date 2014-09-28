@@ -1,14 +1,15 @@
 <!--
 File Name: footer
-Author: Haden hIles
-File Description: this file is used to display contact info, mini navigation, as well as a connected section and copyright links
+Author: Haden Hiles
+Website: Haden - Personal Portfolio
+File Description: this page is used to display contact info, mini navigation, as well as a connected section and copyright links
 -->
 <div class="footer" id="footer">
-    <section id="slide-1" class="homeSlide">
+    <section id="slide-5" class="homeSlide">
         <div class="bcg"
             data-center="background-position: 50% 0px;"
             data-top-bottom="background-position: 50% -100px;"
-            data-anchor-target="#slide-1"
+            data-anchor-target="#slide-5"
         >
             <div class="hsContainer">
                 <div class="hsContent">

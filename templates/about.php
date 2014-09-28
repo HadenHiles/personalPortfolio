@@ -1,21 +1,22 @@
 <!--
 File Name: about
-Author: Haden hIles
-File Description: this section will contain info about myself and my current resume
+Author: Haden Hiles
+Website: Haden - Personal Portfolio
+File Description: this section will contain info about myself and my most recent resume
 -->
 <div class="about" id="about">
-    <section id="slide-1" class="homeSlide">
+    <section id="slide-2" class="homeSlide">
         <div class="bcg"
             data-center="background-position: 50% 0px;"
             data-top-bottom="background-position: 50% -100px;"
-            data-anchor-target="#slide-1"
+            data-anchor-target="#slide-2"
         >
             <div class="hsContainer">
                 <div class="hsContent">
                     <h2>About Me</h2>
                     <div class="col-sm-12">
                         <div class="col-md-6 col-lg-4" style="padding-bottom: 2%">
-                            <img src="../images/content/coldwater2.JPG" class="img-responsive" />
+                            <img alt="" src="../images/content/coldwater2.JPG" class="img-responsive" />
                         </div>
                         <div class="col-md-6 col-lg-8">
                             <p>I am a Georgian College student who growing up always had an interest in sports and computer technology. Throughout my life there was never a time when I wasn’t involved in sports. Whether it was soccer out of Orillia, ON in the summer, hockey out of Coldwater, ON in the winter, or any other sport I could squeeze in throughout my elementary and high school years such as basketball, school hockey, school soccer, volleyball, and badminton.</p>
@@ -28,7 +29,8 @@ File Description: this section will contain info about myself and my current res
                             <br /><p><a href="" style="text-decoration: underline; color: #fff;">Click Here</a> for a current version of my resume.</p>
                         </div>
                         <div class="col-md-6 col-lg-4">
-                            <img src="../images/me/me+bro.JPG" class="img-responsive" />
+                            <img alt="" src="../images/me/me+bro.JPG" class="img-responsive" />
+                            <p>For the most recent version of my resume <a href="https://docs.google.com/document/d/1IryJEpkz2lZIOEP8QfW_f4jdDPqtjhqIDrUkIfi3N0I/edit?usp=sharing" style="color: #fff; text-decoration: underline;">Click Here</a></p>
                         </div>
                     </div>
                 </div>
