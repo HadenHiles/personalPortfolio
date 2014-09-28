@@ -125,6 +125,9 @@ header{
     margin: 0 auto;
     width: 80%;
 }
+.portfolio_sections{
+    height: 280px;
+}
 /* PORTFOLIO STYLES END */
 /* SERVICES STYLE START */
 .services{

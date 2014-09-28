@@ -12,8 +12,8 @@ File Description: this section will highlight some of the projects that I have c
             data-anchor-target="#slide-1"
         >
             <div class="hsContainer"
-                data--240-bottom="opacity: 0"
-                data-0-top="opacity: 1"
+                data--0-bottom="opacity: 1"
+                data-0-top="opacity: 0"
                 data-anchor-target="#slide-1"
             >
                 <h2>Portfolio</h2>
@@ -30,36 +30,19 @@ File Description: this section will highlight some of the projects that I have c
                         <div class="item active">
                             <img alt="" src="/images/content/arnott-image.jpg" />
                             <div class="carousel-caption">
-                                <h3>Arnott Construction</h3>
-                                <p>
-                                    This is a project that I completed over the course of a couple weeks for Arnott Construction Ltd.
-                                    In order to re-do their old website and make it look newer as well as organize their desired content I had
-                                    to meet with the President and CEO to discuss what their needs and desires were. Although this project was
-                                    meant to be a simple revamp of the old site, it turned out to be a great learning experience for making website design
-                                    and layout decisions, as well as some content organization using javascript with help from my dad. On the tech side I
-                                    used some simple javascript to create a "sticky" navigation as well as CSS media queries to make the website look good
-                                    on all screen sizes. As a result of my hard work, the President and CEO of Arnott Construction are very happy with
-                                    the end result of their new website, and I am proud to have recieved that recognition from them.
-                                </p>
+                                <h3><a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#arnott').offset().top - 110}, 1000);">Arnott Construction</a></h3>
                             </div>
                         </div>
                         <div class="item">
                             <img alt="" src="/images/content/hgame-image.jpg" />
                             <div class="carousel-caption">
-                                <h3><a href="http://hgame.moonrockfamily.ca">HGame</a></h3>
-                                <p>This site started off with an idea to have all the online games that I like in one place and then I thought to myself "Why can't everyone have this?" and that is when I started to make HGame. Basically you can come to my HGame website and register as a user. Once you are a user you have the ability to add your own games to the site. I am currently in the process of adding features that make this process easier as well as planning to implement features tailored to each user. For example each user could have a list of their favourite games, or include a way for people to add their high scores of each game. Feel free to check it out by clicking the link above the HGame image!</p>
+                                <h3><a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#hgame').offset().top - 110}, 1000);">HGame</a></h3>
                             </div>
                         </div>
                         <div class="item">
                             <img alt="" src="/images/content/everythingweb-image.jpg">
                             <div class="carousel-caption">
-                                <h3>Everything Web</h3>
-                                <p>
-                                    This website was my first Wordpress site. It was a learning curve for to introduce myself to Wordpress and how it works
-                                    but in the end my struggles payed off. I now have a fully functional blogging website that I use to keep track of everything
-                                    that I learn regarding computer science. I use it mostly for things that I learn to do with web development and design but sometimes for other topics too.
-                                    This blog is what I call my gateway into Wordpress and I am still grateful that I challenged myself to build it my first year of college in 2013.
-                                </p>
+                                <h3><a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#everythingweb').offset().top - 110}, 1000);">Everything Web</a></h3>
                             </div>
                         </div>
                     </div>
@@ -71,6 +54,49 @@ File Description: this section will highlight some of the projects that I have c
                     <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
                         <span class="glyphicon glyphicon-chevron-right"></span>
                     </a>
+                </div>
+                <div class="hsContent">
+                    <div id="everythingweb" class="portfolio_sections">
+                        <h3><a style="color: #fff" href="http://everythingweb.moonrockfamily.ca">Everything Web</a></h3>
+                        <div class="col-sm-6 col-md-8 col-lg-8">
+                            <p>
+                                This website was my first Wordpress site. It was a learning curve for to introduce myself to Wordpress and how it works
+                                but in the end my struggles payed off. I now have a fully functional blogging website that I use to keep track of everything
+                                that I learn regarding computer science. I use it mostly for things that I learn to do with web development and design but sometimes for other topics too.
+                                This blog is what I call my gateway into Wordpress and I am still grateful that I challenged myself to build it my first year of college in 2013.
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4">
+                            <img alt="" src="/images/content/everythingweb1.jpg" class="img-responsive" />
+                        </div>
+                    </div>
+                    <div id="arnott" class="portfolio_sections">
+                        <h3><a style="color: #fff" href="http://arnottgroup.com">Arnott Construction</a></h3>
+                        <div class="col-sm-6 col-md-4 col-lg-4">
+                            <img alt="" src="/images/content/arnott1.jpg" class="img-responsive" />
+                        </div>
+                        <div class="col-sm-6 col-md-8 col-lg-8">
+                            <p>
+                                This is a project that I completed over the course of a couple weeks for Arnott Construction Ltd.
+                                In order to re-do their old website and make it look newer as well as organize their desired content I had
+                                to meet with the President and CEO to discuss what their needs and desires were. Although this project was
+                                meant to be a simple revamp of the old site, it turned out to be a great learning experience for making website design
+                                and layout decisions, as well as some content organization using javascript with help from my dad. On the tech side I
+                                used some simple javascript to create a "sticky" navigation as well as CSS media queries to make the website look good
+                                on all screen sizes. As a result of my hard work, the President and CEO of Arnott Construction are very happy with
+                                the end result of their new website, and I am proud to have recieved that recognition from them.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="hgame" class="portfolio_sections">
+                        <h3><a style="color: #fff" href="http://hgame.moonrockfamily.ca">HGame</a></h3>
+                        <div class="col-sm-6 col-md-8 col-lg-8">
+                            <p>This site started off with an idea to have all the online games that I like in one place and then I thought to myself "Why can't everyone have this?" and that is when I started to make HGame. Basically you can come to my HGame website and register as a user. Once you are a user you have the ability to add your own games to the site. I am currently in the process of adding features that make this process easier as well as planning to implement features tailored to each user. For example each user could have a list of their favourite games, or include a way for people to add their high scores of each game. Feel free to check it out by clicking the link above the HGame image!</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4">
+                            <img alt="" src="/images/content/hgame1.jpg" class="img-responsive" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
