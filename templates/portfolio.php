@@ -42,7 +42,7 @@ File Description: this section will highlight some of the projects that I have c
                         <div class="item">
                             <img alt="" src="/images/content/everythingweb-image.jpg">
                             <div class="carousel-caption">
-                                <h3><a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#everythingweb').offset().top}, 1000);">Everything Web</a></h3>
+                                <h3><a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#everythingweb').offset().top -90}, 1000);">Everything Web</a></h3>
                             </div>
                         </div>
                     </div>
