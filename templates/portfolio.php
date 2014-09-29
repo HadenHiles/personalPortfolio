@@ -102,7 +102,15 @@ File Description: this section will highlight some of the projects that I have c
                 <div id="hgame" class="portfolio_sections">
                     <h3><a style="color: #fff" href="http://hgame.moonrockfamily.ca">HGame</a></h3>
                     <div class="col-sm-6 col-md-8 col-lg-8">
-                        <p>This site started off with an idea to have all the online games that I like in one place and then I thought to myself "Why can't everyone have this?" and that is when I started to make HGame. Basically you can come to my HGame website and register as a user. Once you are a user you have the ability to add your own games to the site. I am currently in the process of adding features that make this process easier as well as planning to implement features tailored to each user. For example each user could have a list of their favourite games, or include a way for people to add their high scores of each game. Feel free to check it out by clicking the link above the HGame image!</p>
+                        <p>
+                            This site started off with an idea to have all the online games that I like in one place and then I thought
+                            to myself "Why can't everyone have this?" and that is when I started to make HGame. Basically you can come to my
+                            HGame website and register as a user. Once you are a user you have the ability to add your own games to the site.
+                            I am currently in the process of adding features that make this process easier as well as planning to implement
+                            features tailored to each user. For example each user could have a list of their favourite games, or include a way
+                            for people to add their high scores of each game. Feel free to check it out by clicking the HGame title above this
+                            description!
+                        </p>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4">
                         <img alt="" src="/images/content/hgame1.jpg" class="img-responsive" />
