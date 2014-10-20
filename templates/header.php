@@ -44,6 +44,7 @@ File Description: this page is used to provide the navigation as well as cycling
         <img alt="" src="../images/me/haden.jpg" class="img-responsive" />
         <img alt="" src="../images/me/crazy-me-small.jpg" class="img-responsive" />
         <img alt="" src="../images/me/golf.jpg" class="img-responsive" />
+        <img alt="" src="../images/me/cartoon-me.png" class="img-responsive" />
         <img alt="" src="../images/me/k+h-family-day.jpg" class="img-responsive" />
         <img alt="" src="../images/me/me+bro.JPG" class="img-responsive" />
         <img alt="" src="../images/me/coldwater2.JPG" class="img-responsive" />
@@ -68,14 +69,14 @@ File Description: this page is used to provide the navigation as well as cycling
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="myModalLabel" style="color: #000;">Connect With Me</h4>
+                <h4 class="modal-title" id="myModalLabel">Connect With Me</h4>
             </div>
             <div class="modal-body">
                 <ul>
                     <li><a href="https://github.com/HadenHiles"><i class="fa fa-github-square"></i></a></li>
                     <li><a href="https://www.linkedin.com/pub/haden-hiles/82/108/676"><i class="fa fa-linkedin-square"></i></a></li>
-                    <li><a href="https://twitter.com/HadenHiles"><i class="fa fa-twitter-square"></i></a></li>
-                    <li><a href="https://www.facebook.com/haden.hiles"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="https://twitter.com/HadenHiles1"><i class="fa fa-twitter-square"></i></a></li>
+                    <!--<li><a href="https://www.facebook.com/haden.hiles"><i class="fa fa-facebook-square"></i></a></li>-->
                     <li><a href="https://plus.google.com/106821251778382631071/"><i class="fa fa-google-plus-square"></i></a></li>
                     <li><a href="http://www.pinterest.com/hadenhiles/"><i class="fa fa-pinterest-square"></i></a></li>
                 </ul>
