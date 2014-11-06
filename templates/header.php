@@ -19,7 +19,7 @@ File Description: this page is used to provide the navigation as well as cycling
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a onclick="$('html, body').animate({scrollTop: $('body').offset().top}, 1000);">Home</a></li>
+                <li><a onclick="$('html, body').animate({scrollTop: $('body').offset().top}, 1000);">Home</a></li>
                 <li><a onclick="$('html, body').animate({scrollTop: $('#portfolio').offset().top - 80}, 1000);">Portfolio</a></li>
                 <li><a onclick="$('html, body').animate({scrollTop: $('#about').offset().top - 80}, 1000);">About</a></li>
                 <li><a onclick="$('html, body').animate({scrollTop: $('#services').offset().top - 80}, 1000);">Services</a></li>

@@ -101,7 +101,7 @@ header{
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     -ms-border-radius: 50%;
-    border: 2px dashed #fff;
+    border: 1px dashed #fff;
 }
 .icon-nav li a span, .icon-nav li a i{
     font-size: 25px;
@@ -267,7 +267,7 @@ fieldset textarea{
     z-index: 100;
     top: 35%;
     background: rgba(255, 255, 255, .5) !important;
-    border: 2px dashed #000;
+    border: 1px dashed #000;
     border-left: none;
     padding: 10px;
     transform: scale(.6, .6);
