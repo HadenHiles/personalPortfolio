@@ -28,22 +28,36 @@ File Description: this section will highlight some of the projects that I have c
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img alt="" src="/images/content/arnott-image.jpg" />
-                            <div class="carousel-caption">
-                                <h3><a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#arnott').offset().top - 90}, 1000);">Arnott Construction</a></h3>
-                            </div>
+                            <a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#sugarRush').offset().top - 90}, 1000);">
+                                <img alt="Sugar Rush" src="/images/content/sugarRush.jpg" />
+                                <div class="carousel-caption">
+                                    <h3>Sugar Rush</h3>
+                                </div>
+                            </a>
                         </div>
                         <div class="item">
-                            <img alt="" src="/images/content/hgame-image.jpg" />
-                            <div class="carousel-caption">
-                                <h3><a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#hgame').offset().top - 90}, 1000);">HGame</a></h3>
-                            </div>
+                            <a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#arnott').offset().top - 90}, 1000);">
+                                <img alt="Arnott Construction" src="/images/content/arnott-image.jpg" />
+                                <div class="carousel-caption">
+                                    <h3>Arnott Construction</h3>
+                                </div>
+                            </a>
                         </div>
                         <div class="item">
-                            <img alt="" src="/images/content/everythingweb-image.jpg">
-                            <div class="carousel-caption">
-                                <h3><a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#everythingweb').offset().top -90}, 1000);">Everything Web</a></h3>
-                            </div>
+                            <a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#hgame').offset().top - 90}, 1000);">
+                                <img alt="HGame" src="/images/content/hgame-image.jpg" />
+                                <div class="carousel-caption">
+                                    <h3>HGame</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#everythingweb').offset().top -90}, 1000);">
+                                <img alt="Everything Web" src="/images/content/everythingweb-image.jpg">
+                                <div class="carousel-caption">
+                                    <h3>Everything Web</h3>
+                                </div>
+                            </a>
                         </div>
                     </div>
 
@@ -63,6 +77,23 @@ File Description: this section will highlight some of the projects that I have c
     <section id="slide-5" class="homeSlide">
         <div class="hsContainer">
             <div class="hsContent">
+                <div id="sugarRush" class="portfolio_sections">
+                    <h3><a style="color: #fff" href="/sugarRush">Sugar Rush</a></h3>
+                    <div class="col-sm-6 col-md-4 col-lg-4">
+                        <img alt="Sugar Rush" src="/images/content/sugarRush1.jpg" class="img-responsive" />
+                    </div>
+                    <div class="col-sm-6 col-md-8 col-lg-8">
+                        <p>
+                            This funky looking game is one that I built for my advanced web class in my 3rd term of college.  I used html5 canvas
+                            and a framework suite called createjs to build it.  I generated my own sounds, found a soundtrack, and altered images
+                            to make them my own for this game.  It was a great learning experience as there is a lot more involved with creating
+                            html5 canvas javascript games than you may think. Feel free to check it out and show your friends by clicking the title
+                            above. It is actually pretty fun!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="hsContent">
                 <div id="everythingweb" class="portfolio_sections">
                     <h3><a style="color: #fff" href="http://everythingweb.moonrockfamily.ca">Everything Web</a></h3>
                     <div class="col-sm-6 col-md-8 col-lg-8">
@@ -74,7 +105,7 @@ File Description: this section will highlight some of the projects that I have c
                         </p>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4">
-                        <img alt="" src="/images/content/everythingweb1.jpg" class="img-responsive" />
+                        <img alt="Everything Web" src="/images/content/everythingweb1.jpg" class="img-responsive" />
                     </div>
                 </div>
             </div>
@@ -82,7 +113,7 @@ File Description: this section will highlight some of the projects that I have c
                 <div id="arnott" class="portfolio_sections">
                     <h3><a style="color: #fff" href="http://arnottgroup.com">Arnott Construction</a></h3>
                     <div class="col-sm-6 col-md-4 col-lg-4">
-                        <img alt="" src="/images/content/arnott1.jpg" class="img-responsive" />
+                        <img alt="Arnott Construction" src="/images/content/arnott1.jpg" class="img-responsive" />
                     </div>
                     <div class="col-sm-6 col-md-8 col-lg-8">
                         <p>
@@ -113,7 +144,7 @@ File Description: this section will highlight some of the projects that I have c
                         </p>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4">
-                        <img alt="" src="/images/content/hgame1.jpg" class="img-responsive" />
+                        <img alt="HGame" src="/images/content/hgame1.jpg" class="img-responsive" />
                     </div>
                 </div>
             </div>

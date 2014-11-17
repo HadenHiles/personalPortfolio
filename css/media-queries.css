@@ -105,6 +105,11 @@
 
 /* ALL SCREENS ABOVE SMALL SCREEN SIZES */
 @media (min-width: 768px){
+    .carousel-caption{
+        width: 40% !important;
+        margin: 0 auto;
+        padding: 0px 8px 25px 8px;
+    }
     .navbar.sticky-nav .large_logo{
         display: none;
         transition: 1s ease-in-out;
