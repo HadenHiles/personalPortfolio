@@ -38,7 +38,7 @@ File Description: this page is used to provide the navigation as well as cycling
     </div>
 </div>
 <div class="bio">
-    <h3 class="welcome">Hi! My name is Haden Hiles,<br />
+    <h3 class="welcome">Hi! My name is Haden<br />
     Welcome to my website!</h3>
     <div class="bio-image">
         <img alt="" src="../images/me/haden.jpg" class="img-responsive" />
@@ -53,7 +53,7 @@ File Description: this page is used to provide the navigation as well as cycling
 </div>
 <div class="intro-message">
     <div class="col-sm-12 col-md-10 col-lg-6">
-        <p>I'm trying to fill up the internet with websites.. but lets hope that I don't.</p><br />
+        <p>I'm trying to fill up the internet.. but lets hope that I don't.</p><br />
         <p>My goal is to keep learning. Whether it be improving my skills in sports like hockey and golf, getting better
         at guitar, or by pumping out websites week after week. I love building and designing websites because it gives me a rewarding
         feeling as I do it. Web design and development is my tool for creativity and I believe that it is continually moving forward,

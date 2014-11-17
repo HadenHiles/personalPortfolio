@@ -44,6 +44,14 @@ File Description: this section will highlight some of the projects that I have c
                             </a>
                         </div>
                         <div class="item">
+                            <a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#baseballSlots').offset().top - 90}, 1000);">
+                                <img alt="Baseball Slots" src="/images/content/baseballSlots.jpg" />
+                                <div class="carousel-caption">
+                                    <h3>Baseball Slots</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
                             <a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#hgame').offset().top - 90}, 1000);">
                                 <img alt="HGame" src="/images/content/hgame-image.jpg" />
                                 <div class="carousel-caption">
@@ -80,15 +88,32 @@ File Description: this section will highlight some of the projects that I have c
                 <div id="sugarRush" class="portfolio_sections">
                     <h3><a style="color: #fff" href="/sugarRush">Sugar Rush</a></h3>
                     <div class="col-sm-6 col-md-4 col-lg-4">
-                        <img alt="Sugar Rush" src="/images/content/sugarRush1.jpg" class="img-responsive" />
+                        <a style="color: #fff" href="/sugarRush"><img alt="Sugar Rush" src="/images/content/sugarRush1.jpg" class="img-responsive" /></a>
                     </div>
                     <div class="col-sm-6 col-md-8 col-lg-8">
                         <p>
-                            This funky looking game is one that I built for my advanced web class in my 3rd term of college.  I used html5 canvas
+                            This funky looking game is one that I built for my advanced web class in college.  I used html5 canvas
                             and a framework suite called createjs to build it.  I generated my own sounds, found a soundtrack, and altered images
                             to make them my own for this game.  It was a great learning experience as there is a lot more involved with creating
                             html5 canvas javascript games than you may think. Feel free to check it out and show your friends by clicking the title
-                            above. It is actually pretty fun!
+                            or image. It is actually pretty fun!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="hsContent">
+                <div id="baseballSlots" class="portfolio_sections">
+                    <h3><a style="color: #fff" href="/baseballSlots">Baseball Slots</a></h3>
+                    <div class="col-sm-6 col-md-4 col-lg-4">
+                        <a style="color: #fff" href="/baseballSlots"><img alt="Baseball Slots" src="/images/content/baseballSlots1.jpg" class="img-responsive" /></a>
+                    </div>
+                    <div class="col-sm-6 col-md-8 col-lg-8">
+                        <p>
+                            This game is the first game that I built for my advanced web class in my 3rd term of college.
+                            It is a neat twist on your usual slot machine, it combines the game of baseball with the odds
+                            of a slot machine, which when you think about it, doesn't make that much sense... But hey, I
+                            think I pieced it together quite nicely! Check it out by clicking the title or image and let me
+                            know what you think!
                         </p>
                     </div>
                 </div>
@@ -105,7 +130,7 @@ File Description: this section will highlight some of the projects that I have c
                         </p>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4">
-                        <img alt="Everything Web" src="/images/content/everythingweb1.jpg" class="img-responsive" />
+                        <a style="color: #fff" href="http://everythingweb.moonrockfamily.ca"><img alt="Everything Web" src="/images/content/everythingweb1.jpg" class="img-responsive" /></a>
                     </div>
                 </div>
             </div>
@@ -113,7 +138,7 @@ File Description: this section will highlight some of the projects that I have c
                 <div id="arnott" class="portfolio_sections">
                     <h3><a style="color: #fff" href="http://arnottgroup.com">Arnott Construction</a></h3>
                     <div class="col-sm-6 col-md-4 col-lg-4">
-                        <img alt="Arnott Construction" src="/images/content/arnott1.jpg" class="img-responsive" />
+                        <a style="color: #fff" href="http://arnottgroup.com"><img alt="Arnott Construction" src="/images/content/arnott1.jpg" class="img-responsive" /></a>
                     </div>
                     <div class="col-sm-6 col-md-8 col-lg-8">
                         <p>
@@ -144,7 +169,7 @@ File Description: this section will highlight some of the projects that I have c
                         </p>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4">
-                        <img alt="HGame" src="/images/content/hgame1.jpg" class="img-responsive" />
+                        <a style="color: #fff" href="http://hgame.moonrockfamily.ca"><img alt="HGame" src="/images/content/hgame1.jpg" class="img-responsive" /></a>
                     </div>
                 </div>
             </div>
