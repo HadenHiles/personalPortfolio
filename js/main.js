@@ -43,7 +43,7 @@ $(document).ready(function(){
     //set up variables to improve performance/speed
     var $window = $(window);
     var $stickyElement = $('#navbar');
-    var elementTop = $stickyElement.offset().top;
+    var elementTop = $stickyElement.offset().top - 30;
 
     //when the user scrolls to the correct point add/remove appropriate classes to the sticky element
     $window.scroll(function() {

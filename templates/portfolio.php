@@ -102,23 +102,6 @@ File Description: this section will highlight some of the projects that I have c
                 </div>
             </div>
             <div class="hsContent">
-                <div id="baseballSlots" class="portfolio_sections">
-                    <h3><a style="color: #fff" href="/baseballSlots">Baseball Slots</a></h3>
-                    <div class="col-sm-6 col-md-4 col-lg-4">
-                        <a style="color: #fff" href="/baseballSlots"><img alt="Baseball Slots" src="/images/content/baseballSlots1.jpg" class="img-responsive" /></a>
-                    </div>
-                    <div class="col-sm-6 col-md-8 col-lg-8">
-                        <p>
-                            This game is the first game that I built for my advanced web class in my 3rd term of college.
-                            It is a neat twist on your usual slot machine, it combines the game of baseball with the odds
-                            of a slot machine, which when you think about it, doesn't make that much sense... But hey, I
-                            think I pieced it together quite nicely! Check it out by clicking the title or image and let me
-                            know what you think!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="hsContent">
                 <div id="everythingweb" class="portfolio_sections">
                     <h3><a style="color: #fff" href="http://everythingweb.moonrockfamily.ca">Everything Web</a></h3>
                     <div class="col-sm-6 col-md-8 col-lg-8">
@@ -170,6 +153,23 @@ File Description: this section will highlight some of the projects that I have c
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4">
                         <a style="color: #fff" href="http://hgame.moonrockfamily.ca"><img alt="HGame" src="/images/content/hgame1.jpg" class="img-responsive" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hsContent">
+                <div id="baseballSlots" class="portfolio_sections">
+                    <h3><a style="color: #fff" href="/baseballSlots">Baseball Slots</a></h3>
+                    <div class="col-sm-6 col-md-4 col-lg-4">
+                        <a style="color: #fff" href="/baseballSlots"><img alt="Baseball Slots" src="/images/content/baseballSlots1.jpg" class="img-responsive" /></a>
+                    </div>
+                    <div class="col-sm-6 col-md-8 col-lg-8">
+                        <p>
+                            This game is the first game that I built for my advanced web class in my 3rd term of college.
+                            It is a neat twist on your usual slot machine, it combines the game of baseball with the odds
+                            of a slot machine, which when you think about it, doesn't make that much sense... But hey, I
+                            think I pieced it together quite nicely! Check it out by clicking the title or image and let me
+                            know what you think!
+                        </p>
                     </div>
                 </div>
             </div>
