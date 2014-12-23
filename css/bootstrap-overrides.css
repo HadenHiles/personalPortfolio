@@ -61,7 +61,7 @@
     position: fixed;
     top: 0;
     background: rgba(0, 0, 0, 1) !important;
-    border-bottom: 1px dashed #fff;
+    border-bottom: 1px solid #fff;
     width: 100%;
     margin: 0;
     transition: 1s all ease-in-out;
@@ -125,7 +125,7 @@
         -moz-transform:scale(1.2);
         -webkit-transform:scale(1.2) !important;
         -ms-transform:scale(1.2);
-        border-top: 2px dashed #fff;
+        border-top: 2px solid #fff;
     }
 }
 
