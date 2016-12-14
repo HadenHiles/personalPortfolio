@@ -17,9 +17,7 @@ File Description: this page is used to display contact info, mini navigation, as
                         <h3>Contact Info</h3>
                         <ul>
                             <li>Email: hadenhiles@gmail.com</li>
-                            <li>Phone: (705) 716-5760</li>
-                            <li>Skype: hadenhiles</li>
-                            <li>Address: 25 Alpine Dr. Moonstone On</li>
+                            <li>Phone: 705-984-7625</li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-6">
