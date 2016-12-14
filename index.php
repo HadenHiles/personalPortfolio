@@ -29,7 +29,7 @@ File Description: this is the main page of the website where all templates/secti
         include($_SERVER['DOCUMENT_ROOT'].'/templates/header.php');
         include($_SERVER['DOCUMENT_ROOT'].'/templates/portfolio.php');
         include($_SERVER['DOCUMENT_ROOT'].'/templates/about.php');
-        include($_SERVER['DOCUMENT_ROOT'].'/templates/services.php');
+//        include($_SERVER['DOCUMENT_ROOT'].'/templates/services.php');
         include($_SERVER['DOCUMENT_ROOT'].'/templates/contact.php');
         include($_SERVER['DOCUMENT_ROOT'].'/templates/footer.php');
     ?>

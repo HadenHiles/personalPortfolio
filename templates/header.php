@@ -22,7 +22,7 @@ File Description: this page is used to provide the navigation as well as cycling
                 <li><a onclick="$('html, body').animate({scrollTop: $('body').offset().top}, 1000);">Home</a></li>
                 <li><a onclick="$('html, body').animate({scrollTop: $('#portfolio').offset().top - 80}, 1000);">Portfolio</a></li>
                 <li><a onclick="$('html, body').animate({scrollTop: $('#about').offset().top - 80}, 1000);">About</a></li>
-                <li><a onclick="$('html, body').animate({scrollTop: $('#services').offset().top - 80}, 1000);">Services</a></li>
+<!--                <li><a onclick="$('html, body').animate({scrollTop: $('#services').offset().top - 80}, 1000);">Services</a></li>-->
                 <li><a href="http://everythingweb.moonrockfamily.ca">Blog</a></li>
                 <li><a onclick="$('html, body').animate({scrollTop: $('#contact').offset().top - 80}, 1000);">Contact</a></li>
             </ul>
@@ -30,7 +30,7 @@ File Description: this page is used to provide the navigation as well as cycling
                 <li><a onclick="$('html, body').animate({scrollTop: $('body').offset().top}, 1000);"><span class="glyphicon glyphicon-home"></span></a></li>
                 <li><a onclick="$('html, body').animate({scrollTop: $('#portfolio').offset().top - 110}, 1000);"><span class="glyphicon glyphicon-folder-open"></span></a></li>
                 <li><a onclick="$('html, body').animate({scrollTop: $('#about').offset().top - 80}, 1000);"><span class="glyphicon glyphicon-question-sign"></span></a></li>
-                <li><a onclick="$('html, body').animate({scrollTop: $('#services').offset().top - 80}, 1000);"><span class="glyphicon glyphicon-ok-sign"></span></a></li>
+<!--                <li><a onclick="$('html, body').animate({scrollTop: $('#services').offset().top - 80}, 1000);"><span class="glyphicon glyphicon-ok-sign"></span></a></li>-->
                 <li><a href="http://everythingweb.moonrockfamily.ca"><i class="fa fa-wordpress"></i></a></li>
                 <li><a onclick="$('html, body').animate({scrollTop: $('#contact').offset().top - 80}, 1000);"><span class="glyphicon glyphicon-envelope"></span></a></li>
             </ul>
@@ -39,7 +39,7 @@ File Description: this page is used to provide the navigation as well as cycling
 </div>
 <div class="bio">
     <h3 class="welcome">Hi! My name is Haden<br />
-    Welcome to my website!</h3>
+    and I love the web!</h3>
     <div class="bio-image">
         <img alt="" src="../images/me/haden.jpg" class="img-responsive" />
         <img alt="" src="../images/me/crazy-me-small.jpg" class="img-responsive" />
@@ -53,11 +53,12 @@ File Description: this page is used to provide the navigation as well as cycling
 </div>
 <div class="intro-message">
     <div class="col-sm-12 col-md-10 col-lg-6">
-        <p>I'm trying to fill up the internet.. but lets hope that I don't.</p><br />
-        <p>My goal is to keep learning. Whether it be improving my skills in sports like hockey and golf, getting better
-        at guitar, or by pumping out websites week after week. I love building and designing websites because it gives me a rewarding
-        feeling as I do it. Web design and development is my tool for creativity and I believe that it is continually moving forward,
-        which is reason enough for me to invest my time in.</p>
+        <p style="height: 150px; float: left;"></p>
+<!--        <p>I'm trying to fill up the internet.. but lets hope that I don't.</p><br />-->
+<!--        <p>My goal is to keep learning. Whether it be improving my skills in sports like hockey and golf, getting better-->
+<!--        at guitar, or by pumping out websites week after week. I love building and designing websites because it gives me a rewarding-->
+<!--        feeling as I do it. Web design and development is my tool for creativity and I believe that it is continually moving forward,-->
+<!--        which is reason enough for me to invest my time in.</p>-->
     </div>
 </div>
 <div class="social-modal-button">

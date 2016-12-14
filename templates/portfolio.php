@@ -53,7 +53,7 @@ File Description: this section will highlight some of the projects that I have c
                         </div>
                         <div class="item">
                             <a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#hgame').offset().top - 90}, 1000);">
-                                <img alt="HGame" src="/images/content/hgame-image.jpg" />
+                                <img alt="HGame" src="/images/content/mygames-image.jpg" />
                                 <div class="carousel-caption">
                                     <h3>HGame</h3>
                                 </div>
@@ -61,7 +61,7 @@ File Description: this section will highlight some of the projects that I have c
                         </div>
                         <div class="item">
                             <a style="color: #fff;" onclick="$('html, body').animate({scrollTop: $('#everythingweb').offset().top -90}, 1000);">
-                                <img alt="Everything Web" src="/images/content/everythingweb-image.jpg">
+                                <img alt="Everything Web" src="/images/content/everythingweb1.jpg">
                                 <div class="carousel-caption">
                                     <h3>Everything Web</h3>
                                 </div>
@@ -106,10 +106,7 @@ File Description: this section will highlight some of the projects that I have c
                     <h3><a style="color: #fff" href="http://everythingweb.moonrockfamily.ca">Everything Web</a></h3>
                     <div class="col-sm-6 col-md-8 col-lg-8">
                         <p>
-                            This website was my first Wordpress site. It was a learning curve for to introduce myself to Wordpress and how it works
-                            but in the end my struggles payed off. I now have a fully functional blogging website that I use to keep track of everything
-                            that I learn regarding computer science. I use it mostly for things that I learn to do with web development and design but sometimes for other topics too.
-                            This blog is what I call my gateway into Wordpress and I am still grateful that I challenged myself to build it my first year of college in 2013.
+                            This website was my first Wordpress blog that I migrated to a new blogging/cms platform I am beginning to enjoy for it's simple management and developer flexibility. It's called PencilBlue and I am on board with everything they are doing.
                         </p>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4">
@@ -139,20 +136,17 @@ File Description: this section will highlight some of the projects that I have c
             </div>
             <div class="hsContent">
                 <div id="hgame" class="portfolio_sections">
-                    <h3><a style="color: #fff" href="http://hgame.moonrockfamily.ca">HGame</a></h3>
+                    <h3><a style="color: #fff" href="http://mygames.moonrockfamily.ca">MyGames</a></h3>
                     <div class="col-sm-6 col-md-8 col-lg-8">
                         <p>
-                            This site started off with an idea to have all the online games that I like in one place and then I thought
-                            to myself "Why can't everyone have this?" and that is when I started to make HGame. Basically you can come to my
-                            HGame website and register as a user. Once you are a user you have the ability to add your own games to the site.
-                            I am currently in the process of adding features that make this process easier as well as planning to implement
-                            features tailored to each user. For example each user could have a list of their favourite games, or include a way
-                            for people to add their high scores of each game. Feel free to check it out by clicking the HGame title above this
-                            description!
+                            This was a project I worked on for my own enjoyment and as a learning experience. I like to believe that one day someone will find it as useful and awesome as I feel it is.
+                            This website is basically a flash game website where you can create an account and control what flash games you want to play. You can favourite existing flash games on the site, or add your own by simply providing the original game page url, a title, and an optional image.
+                            The site has admin management features as well as some cool game playing experience enhancements. It is not responsive like most of my work on the web, but that is on purpose because you can't really play flash games on mobile devices.
+                            Creating the feature to "find your game" within any url was by far the most challenging.
                         </p>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4">
-                        <a style="color: #fff" href="http://hgame.moonrockfamily.ca"><img alt="HGame" src="/images/content/hgame1.jpg" class="img-responsive" /></a>
+                        <a style="color: #fff" href="http://mygames.moonrockfamily.ca"><img alt="MyGames" src="/images/content/mygames-image.jpg" class="img-responsive" /></a>
                     </div>
                 </div>
             </div>
